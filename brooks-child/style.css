@@ -298,6 +298,95 @@ section.theme__section.theme__subscribe__section.text-center.-scale {
 	position: absolute;
 	padding-top: 25%;
 }*/
+
+/*@dgamoni fix v1*/
+.theme__section .theme__section__overlay .-image {
+    background-position: top;
+}
+
+.theme__team-left:hover .theme__team-in .theme__team-pic .image-fill, 
+.theme__team-right:hover .theme__team-in .theme__team-pic .image-fill {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.page-about-us a.wpb_content_element.modal-trigger.btn.waves-effect._animation_left.waves-color.btn-color,
+.page-contacts a.wpb_content_element.modal-trigger.btn.waves-effect._animation_left.waves-color.btn-color {
+    margin: 94px 8px 15px 0px;
+}
+footer.main__footer .footer__col .theme__widget:first-child h4:after,
+.title__underline:after,
+footer.main__footer .footer__col .theme__widget:nth-child(2) h4::after,
+.upsells h2:after, .related h2:after
+{
+	display: none;
+}
+.btn-color,
+.wpcf7-form .btn-color,
+.main__menu .main__menu__navbar > li.current-menu-item a,
+.cart .coupon .btn, .theme__cart__page .coupon .btn,
+.artist-names a
+{
+    text-decoration: none;
+}
+.btn-color:hover,
+.cart .coupon .btn:hover, .theme__cart__page .coupon .btn:hover,
+.artist-names a:hover,
+.next-prev-links .prev-next-post-nav a:hover
+{
+    text-decoration: line-through;
+}
+.main__menu .main__menu__navbar > li.current-menu-item a {
+	text-decoration: underline;
+}
+.top-contact .bicon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 25px;
+    height: 25px;
+    color: inherit;
+    font-size: 27px;
+    line-height: 25px;
+    text-align: center;
+}
+.top-contact .footer-address, 
+.top-contact .footer-tell,
+.top-contact .footer-mail {
+	position: relative;
+    padding: 0 0 0 30px !important;
+}
+.top-contact .footer-address {
+	width: 48%;	
+}
+
+.top-contact address div {
+	padding: 9px 0px 9px 0px;
+}
+.single-product .theme__section.-parallax {
+	display: none;
+}
+
+.footer-address:nth-child(1) {
+    position: relative;
+}
+.footer-address i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 25px;
+    height: 25px;
+    color: inherit;
+    font-size: 27px;
+    line-height: 25px;
+    text-align: center;
+}
+/*@ end dgamoni*/
+
  @media only screen and (max-width:1024px) {
  .portfolio__grid__item.portfolio__item__cover .portfolio__inner a {
  width: 100%;
@@ -472,7 +561,11 @@ body.page-id-8020 .main__theme__wrap > .vc_row-o-content-middle.vc_row-flex.them
 .contact-page-details .btn { width:auto !important;}
 .next-prev-links .prev-portfolio { width:45%; float:left; margin-bottom:20px; margin-left:16px;}
 .next-prev-links .next-portfolio { width:45%; float:right; margin-bottom:20px; margin-right:16px;}
-.next-prev-links .prev-next-post-nav a {background-color: #000;font-size: 14px; line-height: 42px; padding: 10px 12px; text-transform:uppercase; text-decoration: line-through;font-weight: 300; color:#fff;border: 1px solid #000; transition:all 0.3s linear 0s;}
+.next-prev-links .prev-next-post-nav a {
+	background-color: #000;font-size: 14px; line-height: 42px; padding: 10px 12px; 
+	text-transform:uppercase; 
+	/*text-decoration: line-through;*/
+	font-weight: 300; color:#fff;border: 1px solid #000; transition:all 0.3s linear 0s;}
 .next-prev-links .prev-next-post-nav a:hover {transition:all 0.3s linear 0s;background-color: #fff;color:#000;}
 .pt-next-prev { width:86%; margin:0 auto !important;}
 
