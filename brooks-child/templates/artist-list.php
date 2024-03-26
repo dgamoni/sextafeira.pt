@@ -12,36 +12,34 @@ get_header(); ?>
 <div id="artist-list">
 <div class="vc_row wpb_row vc_inner vc_row-fluid theme__container">
 
-    <div class="title-artist title-artist-list">
+  <div class="title-artist title-artist-list">
      <?php /*?>   <span class="colour"><?php printf( __( "%s's Dashboard", 'wpuf' ), $userdata->user_login ); ?></span><?php */?>
-   <?php
-   if (have_posts()) :
-   while (have_posts()) :
-      the_post();
-         the_title(); 
-   endwhile;
-endif;
-   ?>
-    </div>
-<?php 
-$id = $_GET['author_id'];
-//var_dump(get_user_meta($id,'artistic_foto'));
-$imgid = get_user_meta($id,'artistic_foto');
-//var_dump( wp_get_attachment_image_url(intval($imgid[0]),medium));
-$imgurl = wp_get_attachment_image_url(intval($imgid[0]), array(150, 150));
-?>
+  </div>
+  <div class="title-artist title-artist-list">
+    <?php echo get_artist_avatar($_GET['author_id']); ?>
+     <?php
+      if (have_posts()) :
+         while (have_posts()) :
+            the_post();
+               //the_title(); 
+         endwhile;
+      endif;
+     ?>
+  </div>
+<?php $id = $_GET['author_id']; ?>
+
 <div class="title-artist title-artist-list"><?php echo get_the_author_meta('display_name',$id); ?></div>
 <p><?php echo nl2br(get_the_author_meta('description',$id)); ?></p>
 
-<?php if ($imgurl) : ?>
-  <img src="<?php echo $imgurl; ?>" alt="" />
-<?php endif; ?>
+
+
 
 <div class="products">
  <?php 
  $args = array(
     'author'     =>  $id,
-    'post_type'  => 'product'
+    'post_type'  => 'product',
+    'suppress_filters' => false //wpml support
 );
 
 $author_posts = get_posts( $args ); 

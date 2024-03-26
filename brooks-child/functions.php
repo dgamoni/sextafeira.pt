@@ -17,28 +17,21 @@ function brooks_woocommerce_single_size( $args ) {
 	);
 }
 
+function get_artist_avatar($id) {
+	$size = array(200, 200);
+	$avatar = get_avatar( $id, 200);
+	$out = '';
+	$attachment_upload_url = esc_url( get_the_author_meta( 'cupp_upload_meta', $id ) );
+	 
+  	if ( $attachment_upload_url ) {
+    	$attachment_id = attachment_url_to_postid( $attachment_upload_url );
+    	$image_thumb = wp_get_attachment_image_src( $attachment_id, $size );
+  	}
 
-// function my_child_theme_setup() {
-// 	remove_filter( 'woocommerce_get_image_size_shop_single', 'brooks_woocommerce_single_size' );
-// 	add_filter( 'woocommerce_get_image_size_shop_single', 'brooks_woocommerce_single_size_' );
-// }
-// add_action( 'after_setup_theme', 'my_child_theme_setup' );
-
-// remove_filter( 'woocommerce_get_image_size_shop_single', 'brooks_woocommerce_single_size' );
-//add_filter( 'woocommerce_get_image_size_shop_single', 'brooks_woocommerce_single_size_' );
-
-
-
-// add_action( 'init', '_yourtheme_woocommerce_image_dimensions', 1 );
-// function _yourtheme_woocommerce_image_dimensions() {
-
-// 	$single = array(
-// 		'width' 	=> '300',	// px
-// 		'height'	=> '400',	// px
-// 		'crop'		=> 0 		// true
-// 	);
-
-// 	//update_option( 'shop_single_image_size', $single ); 		// Single product image
-// 	update_option( 'brooks_woocommerce_single_size', $single ); 		// Single product image
-// }
-
+	if($avatar) { 
+		 $out = $avatar; 
+	 } else if ($image_thumb) { 
+	     $out = '<img src="'.$image_thumb[0].'" alt="" />';
+	 } 
+return $out;
+}
