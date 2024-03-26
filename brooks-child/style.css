@@ -626,3 +626,23 @@ body.page-id-8020 .main__theme__wrap > .vc_row-o-content-middle.vc_row-flex.them
 .pt-next-prev { width:86%; margin:0 auto !important;}
 
 .three-reasons .vc_col-sm-4 strong { font-size:22px; line-height:28px; letter-spacing:1.5px;}
+
+/*dgamoni fix*/
+.woocommerce-breadcrumb {
+	display: none;
+}
+@media only screen and (max-width: 767px) { 
+	.theme__product__item .product-info-holder {
+		display: block;
+	    opacity: 1;
+	    background-color: transparent;
+	    top: inherit;
+	}
+	.theme__product__item>.brooks-product-list-product-title {
+		display: none;
+	}
+	.theme__product__item>.price {
+		display: none;
+	}
+
+}

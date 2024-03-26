@@ -35,3 +35,38 @@ function get_artist_avatar($id) {
 	 } 
 return $out;
 }
+
+function custom_js_child () { 
+	?>
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+
+		 });// end ready
+	</script>
+	<style>
+		.gender [type="radio"]:not(:checked)+label, .gender [type="radio"]:checked+label  {
+			font-size: 15px;
+		    color: #969396;
+		    font-weight: 300;
+		    text-transform: capitalize;
+		}
+		.tml-user-role-wrap {
+			display: none;
+		}
+	</style>
+<?php
+} 
+add_action( 'wp_footer', 'custom_js_child', 50 );
+
+
+add_action( 'init', 'jk_remove_wc_breadcrumbs' );
+function jk_remove_wc_breadcrumbs() {
+    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+}
+
+
+add_action('wp_logout','go_home');
+function go_home(){
+ wp_redirect( home_url() );
+ exit();
+}

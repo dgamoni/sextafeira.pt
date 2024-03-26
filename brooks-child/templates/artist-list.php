@@ -58,7 +58,7 @@ $author_posts = get_posts( $args );
                     <div class="artist-price"><?php echo $product->get_price_html(); ?></div>
 
      
-     <a rel="nofollow" href="<?php the_permalink(); ?>" data-quantity="1" data-product_id="<?php echo $product->id ?>" data-product_sku="" class="button product_type_grouped btn btn-block btn-sm">View products</a>
+     <a rel="nofollow" href="<?php the_permalink(); ?>" data-quantity="1" data-product_id="<?php echo $product->id ?>" data-product_sku="" class="button product_type_grouped btn btn-block btn-sm"><?php esc_html_e( 'View products', 'brooks' ); ?></a>
      
 	</div>
 <?php endforeach; 

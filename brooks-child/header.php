@@ -7,15 +7,17 @@
         <!-- mobile meta tag -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-		
-        <script type="text/javascript">
-		jQuery(document).ready(function(e) {
-            jQuery(".product_cat-phone-case .brooks-selector input.select-dropdown").closest("ul li:first-child span").text("Select Case");
-			jQuery(".product_cat-phone-case .brooks-selector input.select-dropdown").closest("select option:first-child").text("Select Case");
-        });
-		</script>
         
         <?php wp_head(); ?>
+
+        <script type="text/javascript">
+		// jQuery(document).ready(function(e) {
+  //           jQuery(".product_cat-phone-case .brooks-selector input.select-dropdown").closest("ul li:first-child span").text("Select Case");
+		// 	jQuery(".product_cat-phone-case .brooks-selector input.select-dropdown").closest("select option:first-child").text("Select Case");
+  //       });
+		</script>
+        
+
     </head>
 
 <body <?php body_class(Brooks_Theme_Options::getData('menu_style')); ?>>
