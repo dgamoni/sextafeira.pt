@@ -1,0 +1,104 @@
+﻿/*------------------------------------------------------------------
+     styles
+-------------------------------------------------------------------*/
+
+.buil__main {
+    height: 60vh;
+    max-height: 800px;
+}
+
+.build__section {
+    .build__addres {
+        i {
+            display: inline-block;
+            font-size: 20px;
+            margin-right: 5px;
+            color: $mainColor;
+        }
+    }
+    .build__section__col {
+    }
+}
+
+
+.build__icons__grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.build__addres {
+    margin-bottom: 20px;
+}
+
+.build__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    .build__icon__image {
+        img {
+            width: auto;
+            height: 70px;
+        }
+    }
+    .build__icon__value {
+        margin: 10px 0;
+        font-size: 50px;
+        color: $mainColor;
+        font-weight: 300;
+        text-align: center;
+        line-height: 45px;
+        letter-spacing: 3.3px;
+        span {
+            display: inline-block;
+            font-size: 30px;
+        }
+    }
+    .build__icon__name {
+        font-size: 14px;
+        line-height: 40px;
+        color: $mediumGray;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.tech__row {
+    border-bottom: 1px solid $lightGray;
+    @include clearfix;
+    color: $lightGray;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 10px;
+    .tech__col__left {
+        float: left;
+        max-width: 50%;
+        font-size: 14px;
+        text-align: left;
+    }
+    .tech__col__right {
+        float: right;
+        max-width: 50%;
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+.single__building__content {
+    @include display(flex);
+    .build__section__col {
+        height: 100%;
+        width: 100%;
+        background-position: bottom left;
+        background-size: cover;
+        &.build__image__right {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+}

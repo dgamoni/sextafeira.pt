@@ -1,0 +1,158 @@
+﻿/*------------------------------------------------------------------
+
+[Typography]
+
+Body:                   18px/1.7em 'Open Sans', sans-serif;
+Main menu:              0.85em/.82em;
+Input, textarea:        1em/1.5em;
+
+-------------------------------------------------------------------*/
+
+body {
+    font: 14px/1.7em 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.4em;
+    font-weight: 300;
+}
+.font-0_5x {
+	font-size: 0.5em;
+	h1 {  font-size: calc(36px * 0.5);}
+	h2 {  font-size: calc(30px * 0.5);}
+	h3 {  font-size: calc(22px * 0.5);}
+	h4 {  font-size: calc(16px * 0.5);}
+	h5 {  font-size: calc(14px * 0.5);}
+	h6 {  font-size: calc(12px * 0.5);}
+}
+.font-1_5x {
+	font-size: 1.5em;
+	h1 {  font-size: calc(36px * 1.5);}
+	h2 {  font-size: calc(30px * 1.5);}
+	h3 {  font-size: calc(22px * 1.5);}
+	h4 {  font-size: calc(16px * 1.5);}
+	h5 {  font-size: calc(14px * 1.5);}
+	h6 {  font-size: calc(12px * 1.5);}
+}
+.font-2x {
+	font-size: 2em;
+    h1 {  font-size: 60px;  }
+    h2 {  font-size: 50px;  }
+    h3 {  font-size: 40px;  }
+    h4 {  font-size: 30px;  }
+    h5 {  font-size: 27px;  }
+    h6 {  font-size: 24px;  }
+}
+.font-2_5x {
+	font-size: 2.5em;
+	h1 {  font-size: calc(36px * 2.5);}
+	h2 {  font-size: calc(30px * 2.5);}
+	h3 {  font-size: calc(22px * 2.5);}
+	h4 {  font-size: calc(16px * 2.5);}
+	h5 {  font-size: calc(14px * 2.5);}
+	h6 {  font-size: calc(12px * 2.5);}
+}
+.font-3x {
+	font-size: 3em;
+	h1 {  font-size: calc(36px * 3);}
+	h2 {  font-size: calc(30px * 3);}
+	h3 {  font-size: calc(22px * 3);}
+	h4 {  font-size: calc(16px * 3);}
+	h5 {  font-size: calc(14px * 3);}
+	h6 {  font-size: calc(12px * 3);}
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 1.2em;
+    letter-spacing: 1.7px;
+	&.font-0_5x { font-size: calc(36px * 0.5); }
+	&.font-1_5x { font-size: calc(36px * 1.5); }
+    &.font-2x   { font-size: calc(36px * 2); }
+	&.font-2_5x { font-size: calc(36px * 2.5); }
+	&.font-3x   { font-size: calc(36px * 3); }
+}
+h2 {
+    font-size: 30px; 
+    letter-spacing: 2px;
+	&.font-0_5x { font-size: calc(30px * 0.5); }
+	&.font-1_5x { font-size: calc(30px * 1.5); }
+    &.font-2x   { font-size: calc(30px * 2); }
+	&.font-2_5x { font-size: calc(30px * 2.5); }
+	&.font-3x   { font-size: calc(30px * 3); }
+}
+h3 {
+    font-size: 22px; 
+    letter-spacing: 1.5px;
+	&.font-0_5x { font-size: calc(22px * 0.5); }
+	&.font-1_5x { font-size: calc(22px * 1.5); }
+    &.font-2x   { font-size: calc(22px * 2); }
+	&.font-2_5x { font-size: calc(22px * 2.5); }
+	&.font-3x   { font-size: calc(22px * 3); }
+}
+h4 {
+    font-size: 16px; 
+    letter-spacing: 0.5px;
+	&.font-0_5x { font-size: calc(16px * 0.5); }
+	&.font-1_5x { font-size: calc(16px * 1.5); }
+    &.font-2x   { font-size: calc(16px * 2); }
+	&.font-2_5x { font-size: calc(16px * 2.5); }
+	&.font-3x   { font-size: calc(16px * 3); }
+}
+h5 {
+    font-size: 14px;
+	&.font-0_5x { font-size: calc(14px * 0.5); }
+	&.font-1_5x { font-size: calc(14px * 1.5); }
+    &.font-2x   { font-size: calc(14px * 2); }
+	&.font-2_5x { font-size: calc(14px * 2.5); }
+	&.font-3x   { font-size: calc(14px * 3); }
+}
+
+h6 {
+    font-size: 12px;
+	&.font-0_5x { font-size: calc(12px * 0.5); }
+	&.font-1_5x { font-size: calc(12px * 1.5); }
+    &.font-2x   { font-size: calc(12px * 2); }
+	&.font-2_5x { font-size: calc(12px * 2.5); }
+	&.font-3x   { font-size: calc(12px * 3); }
+}
+
+
+p {
+    font-weight: 300;
+}
+
+
+
+
+
+@function str-replace($string, $search, $replace: '') {
+	$index: str-index($string, $search);
+	@if $index {
+		@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+	}
+	@return $string;
+}
+
+.selector {
+	$string: '0.5';
+	$num: str-replace($string, '.', '_');
+
+	.lol {
+		content: $num;
+	}
+}
+
+@for $i from 1 through 6 {
+	$font_size: $i;
+	.font-#{$font_size}x,
+	.font-#{$font_size}x p,
+	.font-#{$font_size}x h1,
+	.font-#{$font_size}x h2,
+	.font-#{$font_size}x h3,
+	.font-#{$font_size}x h4,
+	.font-#{$font_size}x h5,
+	.font-#{$font_size}x h6 {
+		//font-size: ($font_size)em;
+	}
+}

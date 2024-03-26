@@ -1,0 +1,43 @@
+﻿/*------------------------------------------------------------------
+  Coming soon page
+-------------------------------------------------------------------*/
+
+.intro__countdown {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 300;
+    .datatime {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 23px;
+        min-width: 20px;
+        text-align: right;
+    }
+    .datamark {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.intro__count-in{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.cover__comming-soon{
+    margin: 40px 0;
+}
+.cover__comming-soon,
+.cover__comming-soon svg{
+    height: 230px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .cover__comming-soon,
+    .cover__comming-soon svg{
+        height: 200px;
+        width: 100%;
+    }
+}

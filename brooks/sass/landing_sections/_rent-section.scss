@@ -1,0 +1,32 @@
+﻿
+/*------------------------------------------------------------------
+    Rent Section styles
+-------------------------------------------------------------------*/
+
+.rent__list {
+	text-align: center;
+	font-size: 0;
+	letter-spacing: 0;
+	@include clearfix;
+	.rent__list__item {
+		.input-field {
+			border-right: 1px solid $mainColor;
+		}
+	}
+}
+.rent__list__item {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	&:last-child {
+		width: auto;
+	}
+	.progress {
+		position: absolute;
+		top: calc(100% - 8px);
+		left: 0;
+		z-index: 2;
+		height: 3px;
+	}
+}

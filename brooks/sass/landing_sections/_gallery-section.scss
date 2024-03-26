@@ -1,0 +1,43 @@
+﻿
+/*------------------------------------------------------------------
+    Gallery section styles
+-------------------------------------------------------------------*/
+.gallery__item {
+    position: relative;
+    display: block;
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .gallery__item__description {
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color: rgba($blackColor,0.6);
+        opacity: 0;
+		//box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.45) inset;
+        @include transition(0.5s);
+        //@include transform(scale(1));
+        i {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 30px;
+            height: 30px;
+            margin: auto;
+            font-size: 30px;
+            color: $whiteColor;
+        }
+    }
+
+    &:hover {
+        .gallery__item__description {
+            opacity: 1;
+            //@include transform(scale(1.1));
+        }
+    }
+}

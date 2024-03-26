@@ -1,0 +1,2279 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Brooks\n"
+"POT-Creation-Date: 2016-03-15 14:33+0200\n"
+"PO-Revision-Date: 2016-03-15 14:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:22
+msgid "NO COMMENTS"
+msgstr ""
+
+#: comments.php:22
+msgid "COMMENTS (1)"
+msgstr ""
+
+#: comments.php:22
+msgid "COMMENTS (%)"
+msgstr ""
+
+#: comments.php:33
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:46
+msgid "Name"
+msgstr ""
+
+#: comments.php:47
+msgid "Email"
+msgstr ""
+
+#: comments.php:48
+msgid "Website"
+msgstr ""
+
+#: comments.php:56
+msgid "LEAVE A COMMENT"
+msgstr ""
+
+#: comments.php:57
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:58
+msgid "Submit Comment"
+msgstr ""
+
+#: framework/meta-box-class/my-meta-box-class.php:419
+#: framework/meta-box-class/my-meta-box-class.php:458
+msgid "Remove"
+msgstr ""
+
+#: framework/meta-box-class/my-meta-box-class.php:431
+msgid "Add"
+msgstr ""
+
+#: framework/meta-box-class/my-meta-box-class.php:788
+msgid "Select a color"
+msgstr ""
+
+#: framework/meta-box-class/my-meta-box-class.php:876
+msgid "Select ..."
+msgstr ""
+
+#: framework/meta-box-class/my-meta-box-class.php:1823
+#: framework/meta-box-class/my-meta-box-class.php:1831
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:399
+#: framework/plugins/class-tgm-plugin-activation.php:3021
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:400
+#: framework/plugins/class-tgm-plugin-activation.php:2824
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:820
+#: framework/plugins/class-tgm-plugin-activation.php:3430
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:927
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:927
+#: framework/plugins/class-tgm-plugin-activation.php:930
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:930
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:1108
+#: framework/plugins/class-tgm-plugin-activation.php:2820
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:1873
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2159
+msgid "Required"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2162
+msgid "Recommended"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2178
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2181
+msgid "External Source"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2184
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2201
+msgid "Not Installed"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2205
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2207
+msgid "Active"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2213
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2216
+msgid "Requires Update"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2219
+msgid "Update recommended"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2227
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2272
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2275
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2278
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2281
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2363
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2371
+msgid "Installed version:"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2379
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2391
+msgid "Available version:"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2414
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2428
+msgid "Plugin"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2429
+msgid "Source"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2430
+msgid "Type"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2434
+msgid "Version"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2435
+msgid "Status"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2483
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2487
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2492
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2562
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2595
+msgid "Install"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2601
+msgid "Update"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2604
+msgid "Activate"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2635
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2637
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2673
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2675
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2780
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:2806
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3020
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3354
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3356
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3357
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3361
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3362
+#: framework/plugins/class-tgm-plugin-activation.php:3368
+msgid "Show Details"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3362
+#: framework/plugins/class-tgm-plugin-activation.php:3368
+msgid "Hide Details"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3363
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3367
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3368
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3369
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/plugins/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions.php:85
+msgid "Main Header Menu"
+msgstr ""
+
+#: functions.php:98
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:100
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr ""
+
+#: functions.php:107
+msgid "Header Right Sidebar"
+msgstr ""
+
+#: functions.php:109
+msgid ""
+"Widgets in this area will be shown in the header right sidebar of every page."
+msgstr ""
+
+#: functions.php:116
+msgid "Footer Right Sidebar"
+msgstr ""
+
+#: functions.php:118
+msgid ""
+"Widgets in this area will be shown in the footer right sidebar of every page."
+msgstr ""
+
+#: functions.php:130
+msgid "1st - First"
+msgstr ""
+
+#: functions.php:130
+msgid "2nd - Second"
+msgstr ""
+
+#: functions.php:130
+msgid "3rd - Third"
+msgstr ""
+
+#: functions.php:130
+msgid "4th - Fourth"
+msgstr ""
+
+#: functions.php:135
+msgid " Footer Column"
+msgstr ""
+
+#: functions.php:137
+msgid "Widgets in this area will be shown in the footer appropriate column."
+msgstr ""
+
+#: functions.php:176
+msgid "Brooks Core"
+msgstr ""
+
+#: functions.php:183
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: functions.php:190
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/custom_post_fields.php:12
+msgid "Team member details"
+msgstr ""
+
+#: includes/custom_post_fields.php:19
+msgid "About the team member"
+msgstr ""
+
+#: includes/custom_post_fields.php:20
+msgid "Some words about the member"
+msgstr ""
+
+#: includes/custom_post_fields.php:26
+msgid "Team member company position"
+msgstr ""
+
+#: includes/custom_post_fields.php:27
+msgid "Ex: Web developer or Sales manager"
+msgstr ""
+
+#: includes/custom_post_fields.php:35
+msgid ""
+"Add social networks for team member(recommended number of networks are up to "
+"5"
+msgstr ""
+
+#: includes/custom_post_fields.php:37
+msgid "Add Social Link"
+msgstr ""
+
+#: includes/custom_post_fields.php:38
+msgid "Remove Social Link"
+msgstr ""
+
+#: includes/custom_post_fields.php:43
+msgid "Select social network"
+msgstr ""
+
+#: includes/custom_post_fields.php:72
+msgid "Social network url"
+msgstr ""
+
+#: includes/custom_post_fields.php:81
+msgid "Product Details"
+msgstr ""
+
+#: includes/custom_post_fields.php:88
+msgid "Product Price"
+msgstr ""
+
+#: includes/custom_post_fields.php:89
+msgid "Ex: \"From 250$\" or \"Special Price: 1200$\" or just \"FREE\""
+msgstr ""
+
+#: includes/custom_post_fields.php:97
+msgid "Customer Testimonials details"
+msgstr ""
+
+#: includes/custom_post_fields.php:104
+msgid "Customer Position"
+msgstr ""
+
+#: includes/custom_post_fields.php:105
+msgid "Ex: Web Developer or Sales Manager"
+msgstr ""
+
+#: includes/custom_post_fields.php:110
+msgid "Customer Testimonial Text"
+msgstr ""
+
+#: includes/custom_post_fields.php:111
+msgid "Some testimonial from customer"
+msgstr ""
+
+#: includes/custom_post_fields.php:121
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/custom_post_fields.php:128
+msgid "Multiple Files"
+msgstr ""
+
+#: includes/custom_post_fields.php:129
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: includes/custom_post_fields.php:140
+msgid "Price Table Heading"
+msgstr ""
+
+#: includes/custom_post_fields.php:151
+#: includes/shortcodes/vc_contact_form.php:74
+#: includes/shortcodes/vc_subscription_form.php:81
+#: includes/shortcodes/vc_theme_section_heading.php:63
+msgid "Heading text"
+msgstr ""
+
+#: includes/custom_post_fields.php:152
+msgid "Ex: Personal License"
+msgstr ""
+
+#: includes/custom_post_fields.php:162
+msgid "Price"
+msgstr ""
+
+#: includes/custom_post_fields.php:163
+msgid "Set Price for this column, Ex: 300 $/m"
+msgstr ""
+
+#: includes/custom_post_fields.php:173
+msgid "Heading Label"
+msgstr ""
+
+#: includes/custom_post_fields.php:174
+msgid ""
+"Set Label for this heading. Leave it empty for default view. Ex: Best Price"
+msgstr ""
+
+#: includes/custom_post_fields.php:185
+msgid "Price Table Body"
+msgstr ""
+
+#: includes/custom_post_fields.php:194
+msgid "Add rows to pricing table"
+msgstr ""
+
+#: includes/custom_post_fields.php:196
+msgid "Add Row"
+msgstr ""
+
+#: includes/custom_post_fields.php:197
+msgid "Remove Row"
+msgstr ""
+
+#: includes/custom_post_fields.php:205
+msgid "Row Feature"
+msgstr ""
+
+#: includes/custom_post_fields.php:206
+msgid "Set feature for this row. Ex: One year support."
+msgstr ""
+
+#: includes/custom_post_fields.php:214
+msgid "Column Value"
+msgstr ""
+
+#: includes/custom_post_fields.php:215
+msgid ""
+"Set value for this column that will represent possibility in this row label."
+msgstr ""
+
+#: includes/custom_post_fields.php:226
+msgid "Price Table footer"
+msgstr ""
+
+#: includes/custom_post_fields.php:237
+msgid "Column Link Text"
+msgstr ""
+
+#: includes/custom_post_fields.php:238
+msgid "Set Link text for this column. Leave it empty to remove link."
+msgstr ""
+
+#: includes/custom_post_fields.php:248
+msgid "Column Link Url"
+msgstr ""
+
+#: includes/custom_post_fields.php:249
+msgid ""
+"Set Link for this column. Leave it empty to remove link. Ex: http://example."
+"com"
+msgstr ""
+
+#: includes/brooks_theme_options.php:62
+msgid "Section via hook"
+msgstr ""
+
+#: includes/brooks_theme_options.php:63
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: includes/brooks_theme_options.php:99
+msgid "General"
+msgstr ""
+
+#: includes/brooks_theme_options.php:105
+msgid "Welcome to Brooks Options Panel."
+msgstr ""
+
+#: includes/brooks_theme_options.php:106
+msgid ""
+"It is meant to make your life easier by offering you options which will "
+"customize your website(upload custom logo and favicon, choose a color "
+"scheme, set up footer social icons, etc.)."
+msgstr ""
+
+#: includes/brooks_theme_options.php:113
+msgid "Main Logo"
+msgstr ""
+
+#: includes/brooks_theme_options.php:115
+msgid "Upload an image that will represent your website`s logo."
+msgstr ""
+
+#: includes/brooks_theme_options.php:122
+msgid "Alternative Logo"
+msgstr ""
+
+#: includes/brooks_theme_options.php:123
+msgid ""
+"You can choose to display an alternative logo for the scrolling state of the "
+"header(when header is scrolled down). Make sure to have the Scrolling Effect "
+"enabled in the Theme Options->Header section."
+msgstr ""
+
+#: includes/brooks_theme_options.php:125 includes/brooks_theme_options.php:217
+#: includes/brooks_theme_options.php:394 includes/brooks_theme_options.php:404
+#: includes/brooks_theme_options.php:422 includes/brooks_theme_options.php:455
+#: includes/brooks_theme_options.php:465 includes/brooks_theme_options.php:483
+#: includes/shortcodes/extend_vc.php:14 includes/shortcodes/extend_vc.php:35
+#: includes/shortcodes/extend_vc.php:46 includes/shortcodes/extend_vc.php:71
+#: includes/shortcodes/extend_vc.php:91
+#: includes/shortcodes/vc_image_icon_block.php:60
+#: includes/shortcodes/vc_row_carousel.php:51
+#: includes/shortcodes/vc_row_carousel.php:152
+#: includes/shortcodes/vc_row_carousel.php:177
+#: includes/shortcodes/vc_row_carousel.php:186
+#: includes/shortcodes/vc_theme_section_heading.php:57
+msgid "Yes"
+msgstr ""
+
+#: includes/brooks_theme_options.php:126 includes/brooks_theme_options.php:218
+#: includes/brooks_theme_options.php:395 includes/brooks_theme_options.php:405
+#: includes/brooks_theme_options.php:423 includes/brooks_theme_options.php:456
+#: includes/brooks_theme_options.php:466 includes/brooks_theme_options.php:484
+#: includes/shortcodes/extend_vc.php:100 includes/shortcodes/extend_vc.php:111
+#: includes/shortcodes/extend_vc.php:173 includes/shortcodes/extend_vc.php:198
+#: includes/shortcodes/vc_image_icon_block.php:76
+#: includes/shortcodes/vc_theme_btn.php:173
+#: includes/shortcodes/vc_theme_section_heading.php:96
+msgid "No"
+msgstr ""
+
+#: includes/brooks_theme_options.php:139
+msgid "Upload Alternative Logo"
+msgstr ""
+
+#: includes/brooks_theme_options.php:141
+msgid ""
+"You can upload an alternative logo for the scrolling state of the header."
+msgstr ""
+
+#: includes/brooks_theme_options.php:155
+msgid "WordPress Admin Bar"
+msgstr ""
+
+#: includes/brooks_theme_options.php:156
+msgid ""
+"Enable/Disable the WordPress admin bar(the black top bar which appears on "
+"the website when you`re logged into WordPress)."
+msgstr ""
+
+#: includes/brooks_theme_options.php:158 includes/brooks_theme_options.php:192
+msgid "Enabled"
+msgstr ""
+
+#: includes/brooks_theme_options.php:159 includes/brooks_theme_options.php:193
+msgid "Disabled"
+msgstr ""
+
+#: includes/brooks_theme_options.php:167
+msgid "Styling"
+msgstr ""
+
+#: includes/brooks_theme_options.php:172
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: includes/brooks_theme_options.php:173
+msgid "Select a predefined color scheme."
+msgstr ""
+
+#: includes/brooks_theme_options.php:174
+msgid "blue"
+msgstr ""
+
+#: includes/brooks_theme_options.php:174
+msgid "aqua"
+msgstr ""
+
+#: includes/brooks_theme_options.php:174
+msgid "coral"
+msgstr ""
+
+#: includes/brooks_theme_options.php:174
+msgid "gold"
+msgstr ""
+
+#: includes/brooks_theme_options.php:174
+msgid "orange"
+msgstr ""
+
+#: includes/brooks_theme_options.php:174
+msgid "violet"
+msgstr ""
+
+#: includes/brooks_theme_options.php:180
+msgid "Body Background Color"
+msgstr ""
+
+#: includes/brooks_theme_options.php:181
+msgid "Leave blank or pick a color for the body. (default: #ffffff)."
+msgstr ""
+
+#: includes/brooks_theme_options.php:189
+msgid "Enable/Disable Preloader"
+msgstr ""
+
+#: includes/brooks_theme_options.php:190
+msgid "You can enable/disable the website`s spinning wheel preloader."
+msgstr ""
+
+#: includes/brooks_theme_options.php:206
+msgid "Header"
+msgstr ""
+
+#: includes/brooks_theme_options.php:208
+msgid "<p class=\"description\">Set custom styles for the header</p>"
+msgstr ""
+
+#: includes/brooks_theme_options.php:214
+msgid "Center Logo"
+msgstr ""
+
+#: includes/brooks_theme_options.php:215
+msgid ""
+"You can choose to display an logo in center of the header(when header is not "
+"scrolled down)."
+msgstr ""
+
+#: includes/brooks_theme_options.php:229
+msgid "Padding-Top/Padding-Bottom values for header`s initial position"
+msgstr ""
+
+#: includes/brooks_theme_options.php:230
+msgid "Set new padding values for the header`s look on initial position."
+msgstr ""
+
+#: includes/brooks_theme_options.php:231
+msgid "Values are defined in pixels. Default: 55 with 25"
+msgstr ""
+
+#: includes/brooks_theme_options.php:247
+msgid "Padding-Top/Padding-Bottom values for header`s on scroll position"
+msgstr ""
+
+#: includes/brooks_theme_options.php:248
+msgid "Set new padding values for the header`s look on scroll position."
+msgstr ""
+
+#: includes/brooks_theme_options.php:249
+msgid "Values are defined in pixels. Default: 15 with 15"
+msgstr ""
+
+#: includes/brooks_theme_options.php:260
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/brooks_theme_options.php:261
+msgid ""
+"Leave blank if you want to keep the default background color or pick a color "
+"for the header (default: #fff)."
+msgstr ""
+
+#: includes/brooks_theme_options.php:270
+msgid "Header Opacity"
+msgstr ""
+
+#: includes/brooks_theme_options.php:271
+msgid "You can set the header opacity."
+msgstr ""
+
+#: includes/brooks_theme_options.php:282
+msgid "Header Text Color"
+msgstr ""
+
+#: includes/brooks_theme_options.php:283
+msgid "You can set the header text color."
+msgstr ""
+
+#: includes/brooks_theme_options.php:292
+msgid "Header Border Opacity"
+msgstr ""
+
+#: includes/brooks_theme_options.php:293
+msgid "You can set the header border opacity."
+msgstr ""
+
+#: includes/brooks_theme_options.php:304
+msgid "Header Opacity on Scroll"
+msgstr ""
+
+#: includes/brooks_theme_options.php:305
+msgid "You can set the header opacity on scroll state."
+msgstr ""
+
+#: includes/brooks_theme_options.php:316
+msgid "Header Text Color on Scroll"
+msgstr ""
+
+#: includes/brooks_theme_options.php:317
+msgid "You can set the header text color on scroll state."
+msgstr ""
+
+#: includes/brooks_theme_options.php:329
+msgid "Footer"
+msgstr ""
+
+#: includes/brooks_theme_options.php:335
+msgid "Footer Text"
+msgstr ""
+
+#: includes/brooks_theme_options.php:336
+msgid "Place here your copyright line. For ex: Copyright 2016 | My website."
+msgstr ""
+
+#: includes/brooks_theme_options.php:343
+msgid "Footer Layout"
+msgstr ""
+
+#: includes/brooks_theme_options.php:344
+msgid "Set number of columns in the footer:"
+msgstr ""
+
+#: includes/brooks_theme_options.php:346
+msgid "1 column"
+msgstr ""
+
+#: includes/brooks_theme_options.php:347
+msgid "2 columns"
+msgstr ""
+
+#: includes/brooks_theme_options.php:348
+msgid "3 columns"
+msgstr ""
+
+#: includes/brooks_theme_options.php:358
+msgid "Blog"
+msgstr ""
+
+#: includes/brooks_theme_options.php:363
+msgid "Sidebar Position for Blog Related Pages"
+msgstr ""
+
+#: includes/brooks_theme_options.php:364
+msgid ""
+"Select a sidebar position for blog related pages. It will be applied to "
+"single posts, index page, archive and search pages."
+msgstr ""
+
+#: includes/brooks_theme_options.php:366
+msgid "Sidebar Right"
+msgstr ""
+
+#: includes/brooks_theme_options.php:367
+msgid "Sidebar Left"
+msgstr ""
+
+#: includes/brooks_theme_options.php:368
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/brooks_theme_options.php:376 includes/brooks_theme_options.php:437
+msgid "Header Background Image"
+msgstr ""
+
+#: includes/brooks_theme_options.php:377
+msgid ""
+"Upload an image that will represent your single blog page background image."
+msgstr ""
+
+#: includes/brooks_theme_options.php:383 includes/brooks_theme_options.php:444
+msgid "Heading Text Color Scheme"
+msgstr ""
+
+#: includes/brooks_theme_options.php:384 includes/brooks_theme_options.php:445
+msgid "Pick a scheme for the heading text color."
+msgstr ""
+
+#: includes/brooks_theme_options.php:385 includes/brooks_theme_options.php:412
+#: includes/brooks_theme_options.php:446 includes/brooks_theme_options.php:473
+#: includes/shortcodes/extend_vc.php:58 includes/shortcodes/extend_vc.php:102
+#: includes/shortcodes/extend_vc.php:113
+#: includes/shortcodes/vc_contact_form.php:92
+#: includes/shortcodes/vc_pricing_table.php:162
+#: includes/shortcodes/vc_product_slider.php:146
+#: includes/shortcodes/vc_row_carousel.php:68
+#: includes/shortcodes/vc_row_carousel.php:164
+#: includes/shortcodes/vc_subscription_form.php:183
+#: includes/shortcodes/vc_theme_section_heading.php:88
+msgid "Dark"
+msgstr ""
+
+#: includes/brooks_theme_options.php:385 includes/brooks_theme_options.php:412
+#: includes/brooks_theme_options.php:446 includes/brooks_theme_options.php:473
+#: includes/shortcodes/extend_vc.php:59 includes/shortcodes/extend_vc.php:101
+#: includes/shortcodes/extend_vc.php:112 includes/shortcodes/extend_vc.php:164
+#: includes/shortcodes/vc_contact_form.php:92
+#: includes/shortcodes/vc_counter_block.php:193
+#: includes/shortcodes/vc_pricing_table.php:162
+#: includes/shortcodes/vc_product_slider.php:146
+#: includes/shortcodes/vc_row_carousel.php:67
+#: includes/shortcodes/vc_row_carousel.php:165
+#: includes/shortcodes/vc_subscription_form.php:183
+#: includes/shortcodes/vc_theme_section_heading.php:88
+msgid "Light"
+msgstr ""
+
+#: includes/brooks_theme_options.php:385 includes/brooks_theme_options.php:412
+#: includes/brooks_theme_options.php:446 includes/brooks_theme_options.php:473
+#: includes/shortcodes/extend_vc.php:60
+#: includes/shortcodes/vc_row_carousel.php:69
+#: includes/shortcodes/vc_row_carousel.php:166
+msgid "Theme color"
+msgstr ""
+
+#: includes/brooks_theme_options.php:391 includes/brooks_theme_options.php:452
+msgid "Parallax Animation Background"
+msgstr ""
+
+#: includes/brooks_theme_options.php:392 includes/brooks_theme_options.php:453
+msgid "Use parallax animation effect in block background"
+msgstr ""
+
+#: includes/brooks_theme_options.php:400 includes/brooks_theme_options.php:461
+#: includes/shortcodes/extend_vc.php:41
+#: includes/shortcodes/vc_row_carousel.php:148
+msgid "Scale Animation Background"
+msgstr ""
+
+#: includes/brooks_theme_options.php:401 includes/brooks_theme_options.php:462
+#: includes/shortcodes/extend_vc.php:48
+#: includes/shortcodes/vc_row_carousel.php:154
+msgid "Use scale animation effect in block background"
+msgstr ""
+
+#: includes/brooks_theme_options.php:410 includes/brooks_theme_options.php:471
+#: includes/shortcodes/extend_vc.php:52
+#: includes/shortcodes/vc_row_carousel.php:158
+msgid "Background Overlay Scheme"
+msgstr ""
+
+#: includes/brooks_theme_options.php:411 includes/brooks_theme_options.php:472
+msgid ""
+"Pick a scheme for the background overlay. \"Light\" looks good over dark "
+"images while \"Dark\" looks good on light images."
+msgstr ""
+
+#: includes/brooks_theme_options.php:412 includes/brooks_theme_options.php:473
+#: includes/shortcodes/extend_vc.php:57
+#: includes/shortcodes/vc_row_carousel.php:163
+msgid "None"
+msgstr ""
+
+#: includes/brooks_theme_options.php:418 includes/brooks_theme_options.php:479
+msgid "Background Overlay Pattern"
+msgstr ""
+
+#: includes/brooks_theme_options.php:419 includes/brooks_theme_options.php:480
+#: includes/shortcodes/extend_vc.php:68
+#: includes/shortcodes/vc_row_carousel.php:174
+msgid "Choose to use pattern or just solid overlay."
+msgstr ""
+
+#: includes/brooks_theme_options.php:430
+msgid "Product Page"
+msgstr ""
+
+#: includes/brooks_theme_options.php:438
+msgid ""
+"Upload an image that will represent your single product page background "
+"image."
+msgstr ""
+
+#: includes/brooks_theme_options.php:492
+msgid "Social"
+msgstr ""
+
+#: includes/brooks_theme_options.php:497
+msgid "Social Options."
+msgstr ""
+
+#: includes/brooks_theme_options.php:498
+msgid ""
+"Set your social network references. Add your links for popular platforms "
+"like Twitter and Facebook. If you don`t want to include a social icon in the "
+"list, just leave the textfield empty.)."
+msgstr ""
+
+#: includes/brooks_theme_options.php:503
+msgid "Your RSS Feed address"
+msgstr ""
+
+#: includes/brooks_theme_options.php:509
+msgid "Your Facebook page/brooksle URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:515
+msgid "Your Twitter URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:521
+msgid "Your Flickr Page URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:526
+msgid "Your Google Plus Page URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:531
+msgid "Your Dribbble Brooksle URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:536
+msgid "Your Pinterest URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:541
+msgid "Your LinkedIn Profile URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:546
+msgid "Your Skype Username"
+msgstr ""
+
+#: includes/brooks_theme_options.php:551
+msgid "Your Github URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:556
+msgid "Your YouTube URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:561
+msgid "Your Vimeo Page URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:566
+msgid "Your Instagram Profile URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:572
+msgid "Your Tumblr URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:578
+msgid "Your Behance Profile URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:584
+msgid "Your VK URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:590
+msgid "Your Xing URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:595
+msgid "Your SoundCloud URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:600
+msgid "Your Codepen URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:605
+msgid "Your Yelp URL"
+msgstr ""
+
+#: includes/brooks_theme_options.php:628 includes/brooks_theme_options.php:629
+msgid "Theme Options"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:10
+msgid "Use video background?"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:12
+msgid "If checked, video will be used as row background."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:13 includes/shortcodes/extend_vc.php:21
+#: includes/shortcodes/extend_vc.php:33 includes/shortcodes/extend_vc.php:44
+#: includes/shortcodes/extend_vc.php:55 includes/shortcodes/extend_vc.php:69
+#: includes/shortcodes/vc_row_carousel.php:150
+#: includes/shortcodes/vc_row_carousel.php:161
+#: includes/shortcodes/vc_row_carousel.php:175
+msgid "Backrground Effect Options"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:18
+msgid "YouTube link"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:22
+msgid "Add YouTube link."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:30
+msgid "Parallax"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:37
+msgid "Add parallax type background for row."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:54
+#: includes/shortcodes/vc_row_carousel.php:160
+msgid ""
+"Pick a scheme for the background overlay. 'Light'looks good over dark images "
+"while 'Dark' looks good on light images."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:65
+#: includes/shortcodes/vc_row_carousel.php:171
+msgid "Background Overlay Patern"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:76
+msgid "Fixed-width Grid Type"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:78
+msgid "You can specify whether the row is displayed fullwidth or in container."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:81
+msgid "Yes, in Container"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:86
+#: includes/shortcodes/vc_row_carousel.php:182
+msgid "No padding"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:88
+#: includes/shortcodes/vc_row_carousel.php:184
+msgid "Choose to remove spaces on top and bottom of the row."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:96
+msgid "Use link(arrow) to next section"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:98
+msgid ""
+"Choose to use arrow in the bottom of the section, that link to next section."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:107
+msgid "Use Polygonal Curve"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:109
+msgid "Choose to use polygonal curve anomation in the bottom of the section."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:151
+msgid "Select element tag."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:152
+msgid "Select text alignment."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:153
+msgid "Select heading color."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:159
+msgid "Font Weight"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:161
+msgid "Choose font weight."
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:163
+msgid "Normal"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:165
+msgid "Bold"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:170 includes/shortcodes/extend_vc.php:195
+#: includes/shortcodes/vc_theme_btn.php:170
+#: includes/shortcodes/vc_theme_section_heading.php:93
+msgid "CSS Animation"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:174 includes/shortcodes/extend_vc.php:199
+#: includes/shortcodes/vc_theme_btn.php:174
+#: includes/shortcodes/vc_theme_section_heading.php:97
+msgid "Top to bottom"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:175 includes/shortcodes/extend_vc.php:200
+#: includes/shortcodes/vc_theme_btn.php:175
+#: includes/shortcodes/vc_theme_section_heading.php:98
+msgid "Bottom to top"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:176 includes/shortcodes/extend_vc.php:201
+#: includes/shortcodes/vc_theme_btn.php:176
+#: includes/shortcodes/vc_theme_section_heading.php:99
+msgid "Left to right"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:177 includes/shortcodes/extend_vc.php:202
+#: includes/shortcodes/vc_theme_btn.php:177
+#: includes/shortcodes/vc_theme_section_heading.php:100
+msgid "Right to left"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:178 includes/shortcodes/extend_vc.php:203
+#: includes/shortcodes/vc_theme_btn.php:178
+#: includes/shortcodes/vc_theme_section_heading.php:101
+msgid "Appear from center"
+msgstr ""
+
+#: includes/shortcodes/extend_vc.php:180 includes/shortcodes/extend_vc.php:205
+#: includes/shortcodes/vc_theme_btn.php:180
+#: includes/shortcodes/vc_theme_section_heading.php:103
+msgid ""
+"Select type of animation for element to be animated when it \"enters\" the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:60
+#: includes/shortcodes/vc_counter_block.php:70
+#: includes/shortcodes/vc_theme_btn.php:102
+msgid "No contact forms found"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:64
+msgid "[Brooks] Contact Form"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: includes/shortcodes/vc_contact_form.php:68
+#: includes/shortcodes/vc_counter_block.php:79
+#: includes/shortcodes/vc_image_gallery.php:88
+#: includes/shortcodes/vc_image_icon_block.php:45
+#: includes/shortcodes/vc_posts_block.php:139
+#: includes/shortcodes/vc_pricing_table.php:147
+#: includes/shortcodes/vc_product_slider.php:125
+#: includes/shortcodes/vc_subscription_form.php:74
+#: includes/shortcodes/vc_team_slider.php:148
+#: includes/shortcodes/vc_testimonials_slider.php:110
+#: includes/shortcodes/vc_theme_btn.php:109
+#: includes/shortcodes/vc_theme_section_heading.php:48
+msgid "Brooks"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:78
+#: includes/shortcodes/vc_subscription_form.php:85
+#: includes/shortcodes/vc_theme_section_heading.php:67
+msgid "Type heading text"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:82
+#: includes/shortcodes/vc_theme_section_heading.php:71
+msgid "Subheading text"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:86
+#: includes/shortcodes/vc_theme_section_heading.php:75
+msgid "Type subheading text"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:90
+#: includes/shortcodes/vc_pricing_table.php:160
+#: includes/shortcodes/vc_subscription_form.php:181
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:93
+#: includes/shortcodes/vc_counter_block.php:194
+#: includes/shortcodes/vc_posts_block.php:147
+#: includes/shortcodes/vc_pricing_table.php:163
+#: includes/shortcodes/vc_product_slider.php:140
+#: includes/shortcodes/vc_product_slider.php:147
+#: includes/shortcodes/vc_product_slider.php:154
+#: includes/shortcodes/vc_product_slider.php:161
+#: includes/shortcodes/vc_row_carousel.php:59
+#: includes/shortcodes/vc_subscription_form.php:184
+#: includes/shortcodes/vc_team_slider.php:156
+#: includes/shortcodes/vc_team_slider.php:164
+#: includes/shortcodes/vc_testimonials_slider.php:125
+#: includes/shortcodes/vc_testimonials_slider.php:132
+#: includes/shortcodes/vc_theme_btn.php:119
+#: includes/shortcodes/vc_theme_btn.php:152
+#: includes/shortcodes/vc_theme_btn.php:159
+#: includes/shortcodes/vc_theme_btn.php:166
+#: includes/shortcodes/vc_theme_section_heading.php:82
+#: includes/shortcodes/vc_theme_section_heading.php:89
+msgid "Choose from specified options."
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:97
+#: includes/shortcodes/vc_theme_btn.php:141
+msgid "Select contact form"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:100
+msgid "Choose previously created contact from the drop down list."
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:104
+#: includes/shortcodes/vc_counter_block.php:198
+#: includes/shortcodes/vc_image_gallery.php:108
+#: includes/shortcodes/vc_image_icon_block.php:93
+#: includes/shortcodes/vc_posts_block.php:158
+#: includes/shortcodes/vc_pricing_table.php:167
+#: includes/shortcodes/vc_row_carousel.php:74
+#: includes/shortcodes/vc_row_carousel.php:191
+#: includes/shortcodes/vc_subscription_form.php:195
+#: includes/shortcodes/vc_testimonials_slider.php:136
+#: includes/shortcodes/vc_theme_btn.php:184
+#: includes/shortcodes/vc_theme_section_heading.php:107
+msgid "Css"
+msgstr ""
+
+#: includes/shortcodes/vc_contact_form.php:106
+#: includes/shortcodes/vc_counter_block.php:200
+#: includes/shortcodes/vc_image_gallery.php:110
+#: includes/shortcodes/vc_image_icon_block.php:95
+#: includes/shortcodes/vc_posts_block.php:160
+#: includes/shortcodes/vc_pricing_table.php:169
+#: includes/shortcodes/vc_row_carousel.php:76
+#: includes/shortcodes/vc_row_carousel.php:193
+#: includes/shortcodes/vc_subscription_form.php:197
+#: includes/shortcodes/vc_testimonials_slider.php:138
+#: includes/shortcodes/vc_theme_btn.php:186
+#: includes/shortcodes/vc_theme_section_heading.php:109
+msgid "Design options"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:75
+msgid "[Brooks] Counter block"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:84
+msgid "Counter Value"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:88
+msgid "Type value of counter number"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:92
+msgid "Counter subtext"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:96
+msgid "Type some text"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:100
+#: includes/shortcodes/vc_subscription_form.php:89
+msgid "Icon library"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:102
+#: includes/shortcodes/vc_subscription_form.php:91
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:103
+#: includes/shortcodes/vc_subscription_form.php:92
+msgid "Open Iconic"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:104
+#: includes/shortcodes/vc_subscription_form.php:93
+msgid "Typicons"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:105
+#: includes/shortcodes/vc_subscription_form.php:94
+msgid "Entypo"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:106
+#: includes/shortcodes/vc_subscription_form.php:95
+msgid "Linecons"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:109
+#: includes/shortcodes/vc_subscription_form.php:98
+msgid "Select icon library."
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:113
+#: includes/shortcodes/vc_counter_block.php:128
+#: includes/shortcodes/vc_counter_block.php:144
+#: includes/shortcodes/vc_counter_block.php:160
+#: includes/shortcodes/vc_counter_block.php:175
+#: includes/shortcodes/vc_image_icon_block.php:64
+#: includes/shortcodes/vc_subscription_form.php:102
+#: includes/shortcodes/vc_subscription_form.php:118
+#: includes/shortcodes/vc_subscription_form.php:134
+#: includes/shortcodes/vc_subscription_form.php:150
+#: includes/shortcodes/vc_subscription_form.php:165
+msgid "Icon"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:124
+#: includes/shortcodes/vc_counter_block.php:140
+#: includes/shortcodes/vc_counter_block.php:156
+#: includes/shortcodes/vc_counter_block.php:187
+#: includes/shortcodes/vc_image_icon_block.php:70
+#: includes/shortcodes/vc_subscription_form.php:114
+#: includes/shortcodes/vc_subscription_form.php:130
+#: includes/shortcodes/vc_subscription_form.php:146
+#: includes/shortcodes/vc_subscription_form.php:177
+msgid "Select icon from library."
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:191
+#: includes/shortcodes/vc_theme_btn.php:163
+#: includes/shortcodes/vc_theme_section_heading.php:86
+msgid "Color"
+msgstr ""
+
+#: includes/shortcodes/vc_counter_block.php:193
+#: includes/shortcodes/vc_theme_section_heading.php:88
+msgid "Theme Color"
+msgstr ""
+
+#: includes/shortcodes/vc_image_gallery.php:81
+msgid "No galleries found"
+msgstr ""
+
+#: includes/shortcodes/vc_image_gallery.php:85
+msgid "[Brooks] Image Gallery"
+msgstr ""
+
+#: includes/shortcodes/vc_image_gallery.php:94
+#: includes/shortcodes/vc_pricing_table.php:153
+msgid "Select pricing table"
+msgstr ""
+
+#: includes/shortcodes/vc_image_gallery.php:97
+#: includes/shortcodes/vc_image_gallery.php:104
+#: includes/shortcodes/vc_pricing_table.php:156
+msgid "Choose previously created pricing table  from the drop down list."
+msgstr ""
+
+#: includes/shortcodes/vc_image_gallery.php:101
+msgid "Choose number of columns"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:42
+msgid "[Brooks] Service info block"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:51
+msgid "Image"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:54
+msgid "Select image from media library."
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:58
+msgid "Use Scale animation for Image"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:74
+msgid "Use Theme Color for Icon"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:80
+msgid "Set Color"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:83
+msgid "Choose color for icon"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:87
+msgid "Text"
+msgstr ""
+
+#: includes/shortcodes/vc_image_icon_block.php:89
+msgid "Enter your content."
+msgstr ""
+
+#: includes/shortcodes/vc_posts_block.php:71
+#: includes/shortcodes/vc_posts_block.php:102
+#: includes/shortcodes/vc_product_slider.php:68
+#: includes/shortcodes/vc_product_slider.php:89
+#: templates/template-part-format.php:37 templates/template-part-format.php:40
+msgid "Read more"
+msgstr ""
+
+#: includes/shortcodes/vc_posts_block.php:136
+msgid "[Brooks] Posts Block"
+msgstr ""
+
+#: includes/shortcodes/vc_posts_block.php:144
+msgid "Posts block type"
+msgstr ""
+
+#: includes/shortcodes/vc_posts_block.php:146
+#: includes/shortcodes/vc_team_slider.php:155
+msgid "Slider"
+msgstr ""
+
+#: includes/shortcodes/vc_posts_block.php:146
+#: includes/shortcodes/vc_team_slider.php:155
+msgid "Grid"
+msgstr ""
+
+#: includes/shortcodes/vc_posts_block.php:151
+msgid "Choose posts by category"
+msgstr ""
+
+#: includes/shortcodes/vc_posts_block.php:154
+#: includes/shortcodes/vc_product_slider.php:133
+msgid "Filter from specified categories."
+msgstr ""
+
+#: includes/shortcodes/vc_pricing_table.php:140
+msgid "No pricing table found"
+msgstr ""
+
+#: includes/shortcodes/vc_pricing_table.php:144
+msgid "[Brooks] Pricing Table"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:122
+msgid "[Brooks] Product Slider"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:130
+msgid "Choose Product category"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:137
+#: includes/shortcodes/vc_testimonials_slider.php:122
+msgid "Slide layout type"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:139
+msgid "Image on Left"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:139
+msgid "Image on Right"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:139
+msgid "Boxed Slide with Image on Top"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:144
+msgid "Fonts color scheme"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:151
+msgid "Number of slides per page"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:158
+#: includes/shortcodes/vc_row_carousel.php:56
+#: includes/shortcodes/vc_testimonials_slider.php:129
+msgid "Type of Transition"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:160
+#: includes/shortcodes/vc_testimonials_slider.php:131
+msgid "none"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:160
+#: includes/shortcodes/vc_testimonials_slider.php:131
+msgid "Fade"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:160
+#: includes/shortcodes/vc_testimonials_slider.php:131
+msgid "Back side"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:160
+#: includes/shortcodes/vc_testimonials_slider.php:131
+msgid "Go down"
+msgstr ""
+
+#: includes/shortcodes/vc_product_slider.php:160
+#: includes/shortcodes/vc_testimonials_slider.php:131
+msgid "Fade up"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:37
+msgid "Row Carousel"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:47
+msgid "Full height carousel?"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:49
+msgid "If checked carousel will be set to full height."
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:63
+msgid "Navigation arrows color"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:65
+msgid "Choose the color scheme of the navigation elements."
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:129
+msgid "Slide Item"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:137
+msgid "Content position"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:140
+msgid "Top"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:141
+msgid "Middle"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:142
+msgid "Bottom"
+msgstr ""
+
+#: includes/shortcodes/vc_row_carousel.php:144
+msgid "Select content position within columns."
+msgstr ""
+
+#: includes/shortcodes/vc_subscription_form.php:67
+msgid "No subscription forms found"
+msgstr ""
+
+#: includes/shortcodes/vc_subscription_form.php:71
+msgid "[Brooks] Subscription Form"
+msgstr ""
+
+#: includes/shortcodes/vc_subscription_form.php:188
+msgid "Select subscription form"
+msgstr ""
+
+#: includes/shortcodes/vc_subscription_form.php:191
+msgid "Choose previously created form from the drop down list."
+msgstr ""
+
+#: includes/shortcodes/vc_team_slider.php:145
+msgid "[Brooks] Team Block"
+msgstr ""
+
+#: includes/shortcodes/vc_team_slider.php:153
+msgid "Team block type"
+msgstr ""
+
+#: includes/shortcodes/vc_team_slider.php:160
+msgid "Slider type"
+msgstr ""
+
+#: includes/shortcodes/vc_team_slider.php:163
+msgid "Rounded Images Slider"
+msgstr ""
+
+#: includes/shortcodes/vc_team_slider.php:163
+msgid "Shape Images Slider"
+msgstr ""
+
+#: includes/shortcodes/vc_testimonials_slider.php:107
+msgid "[Brooks] Testimonials slider"
+msgstr ""
+
+#: includes/shortcodes/vc_testimonials_slider.php:115
+msgid "Choose testimonials category"
+msgstr ""
+
+#: includes/shortcodes/vc_testimonials_slider.php:118
+msgid "Filter from specified album."
+msgstr ""
+
+#: includes/shortcodes/vc_testimonials_slider.php:124
+msgid "Rectangle Image"
+msgstr ""
+
+#: includes/shortcodes/vc_testimonials_slider.php:124
+msgid "Rounded Image"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:106
+msgid "[Brooks] Default theme button"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:116
+msgid "Button type:"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:123
+msgid "Button title"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:126
+#: includes/shortcodes/vc_theme_btn.php:135
+#: includes/shortcodes/vc_theme_btn.php:143
+msgid "element"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:126
+#: includes/shortcodes/vc_theme_btn.php:135
+#: includes/shortcodes/vc_theme_btn.php:143
+msgid "value"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:128
+msgid "Type name"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:132
+msgid "Link"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:137
+msgid "Type link"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:145
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:149
+msgid "Size"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:151
+msgid "default"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:151
+msgid "small"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:156
+#: includes/shortcodes/vc_theme_section_heading.php:79
+msgid "Align"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:158
+#: includes/shortcodes/vc_theme_section_heading.php:81
+msgid "left"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:158
+#: includes/shortcodes/vc_theme_section_heading.php:81
+msgid "center"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:158
+#: includes/shortcodes/vc_theme_section_heading.php:81
+msgid "right"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:165
+msgid "White Background"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:165
+msgid "White Text and Border"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:165
+msgid "Theme Color Background"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_btn.php:165
+msgid "Theme Color Text and Border"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_section_heading.php:45
+msgid "[Brooks] Default theme section heading"
+msgstr ""
+
+#: includes/shortcodes/vc_theme_section_heading.php:59
+msgid "Use much bigger font size for main section"
+msgstr ""
+
+#: includes/theme_functions.php:26
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/theme_functions.php:28
+msgid "Reply"
+msgstr ""
+
+#: includes/widgets/copyrights_info.php:8
+msgid "Display copyrights info from \"Theme Options\""
+msgstr ""
+
+#: includes/widgets/copyrights_info.php:9
+msgid "[Brooks] Copyrights"
+msgstr ""
+
+#: includes/widgets/footer_contacts.php:8
+msgid "Add a contacts info to your footer."
+msgstr ""
+
+#: includes/widgets/footer_contacts.php:9
+msgid "[Brooks] Footer Contacts"
+msgstr ""
+
+#: includes/widgets/footer_contacts.php:40 includes/widgets/footer_menu.php:64
+#: includes/widgets/modal_button.php:88 includes/widgets/social_links.php:66
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/footer_contacts.php:44
+msgid "Address:"
+msgstr ""
+
+#: includes/widgets/footer_contacts.php:48
+msgid "Phone number:"
+msgstr ""
+
+#: includes/widgets/footer_contacts.php:52
+msgid "Email:"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:8
+msgid "Add a custom menu to your footer."
+msgstr ""
+
+#: includes/widgets/footer_menu.php:9
+msgid "[Brooks] Footer Menu"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:59
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: includes/widgets/footer_menu.php:68
+msgid "Select Menu:"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:70 includes/widgets/modal_button.php:94
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/widgets/google_map.php:8
+msgid "Add a Google map."
+msgstr ""
+
+#: includes/widgets/google_map.php:9
+msgid "[Brooks] Google Map"
+msgstr ""
+
+#: includes/widgets/google_map.php:51
+msgid "Pin Title:"
+msgstr ""
+
+#: includes/widgets/google_map.php:55
+msgid "Pin Description:"
+msgstr ""
+
+#: includes/widgets/google_map.php:59
+msgid "Location Latitude:"
+msgstr ""
+
+#: includes/widgets/google_map.php:63
+msgid "Location Longitude:"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:11
+msgid "[Brooks] Instagram Feed"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:12
+msgid "Displays your latest Instagram photos"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:56
+msgid "Instagram"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:56
+msgid "Follow Me!"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:64
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:65
+msgid "Username"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:66
+msgid "Number of photos"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:67
+msgid "Photo size"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:69
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:70
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:71
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:72
+msgid "Original"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:75
+msgid "Open links in"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:77
+msgid "Current window (_self)"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:78
+msgid "New window (_blank)"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:107
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:110
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:117
+#: includes/widgets/instagram_feed.php:122
+#: includes/widgets/instagram_feed.php:126
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:152
+msgid "Instagram Image"
+msgstr ""
+
+#: includes/widgets/instagram_feed.php:184
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: includes/widgets/modal_button.php:8
+msgid "Add a button which will call for modal form."
+msgstr ""
+
+#: includes/widgets/modal_button.php:9
+msgid "[Brooks] Modal Form Button"
+msgstr ""
+
+#: includes/widgets/modal_button.php:16
+msgid "CONTACT US"
+msgstr ""
+
+#: includes/widgets/modal_button.php:62
+msgid "Contact Form 7 plugin not installed yet. Install it please."
+msgstr ""
+
+#: includes/widgets/modal_button.php:78
+#, php-format
+msgid "No contact forms have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: includes/widgets/modal_button.php:84
+msgid "Title for Button in Header:"
+msgstr ""
+
+#: includes/widgets/modal_button.php:92
+msgid "Select Contact Form:"
+msgstr ""
+
+#: includes/widgets/recent_posts.php:8
+msgid "Your site`s most recent Posts."
+msgstr ""
+
+#: includes/widgets/recent_posts.php:9
+msgid "[Brooks] Recent posts"
+msgstr ""
+
+#: includes/widgets/social_links.php:30
+msgid "Add a social links block."
+msgstr ""
+
+#: includes/widgets/social_links.php:31
+msgid "[Brooks] Social Links"
+msgstr ""
+
+#: includes/widgets/social_links.php:63
+msgid ""
+"Check social networks that you want to display in widget(based on \"Theme "
+"Options > Social\".)"
+msgstr ""
+
+#: search.php:56
+msgid "Your search did not match any entries"
+msgstr ""
+
+#: search.php:57
+msgid "Suggestions:"
+msgstr ""
+
+#: search.php:59
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#: search.php:60
+msgid "Try different keywords."
+msgstr ""
+
+#: search.php:61
+msgid "Try more general keywords."
+msgstr ""
+
+#: single-post.php:55
+msgid "share"
+msgstr ""
+
+#: single-post.php:96
+msgid "Sorry, no posts matched your criteria. "
+msgstr ""
+
+#: templates/template-part-blog-title.php:45
+msgid "BLOG"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://theme.iondigi.com/brooks/wordpress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Bussiness One-Page Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ION Digital"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://iondigi.com"
+msgstr ""

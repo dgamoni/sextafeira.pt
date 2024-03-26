@@ -1,0 +1,27 @@
+﻿
+/*------------------------------------------------------------------
+    Video section styles
+-------------------------------------------------------------------*/
+
+.video__container {
+    position: relative;
+    max-width: 1000px;
+    margin:20px auto;
+    padding: 20px;
+    background-color: $mediumBlue;
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,0.5);
+    .theme__inner__content {
+        height: 600px;
+    }
+
+    .play__btn  {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%,-50%));
+        font-size: 100px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}

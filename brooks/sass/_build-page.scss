@@ -1,0 +1,56 @@
+﻿/*------------------------------------------------------------------
+     styles
+-------------------------------------------------------------------*/
+
+.buil__main {
+    height: 60vh;
+    max-height: 800px;
+}
+
+.build__section {
+    .container-fluid {
+        position: relative;
+        padding-left: $containerOffset;
+        .row {
+            position: relative;
+        }
+    }
+    .build__addres {
+        i.icon {
+            display: inline-block;
+            margin-right: 5px;
+            color: $mediumBlue;
+        }
+    }
+    .build__section__col {
+        p {
+            width: 88%;
+            margin-top: 40px;
+            color: #000;
+            font-size: 18px;
+            line-height: 40px;
+            font-weight: 300;
+        }
+    }
+}
+
+.tech__row {
+    border-bottom: 1px solid $lightGray;
+    @include clearfix;
+    color: $lightGray;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 10px;
+    .tech__row__left {  
+        float: left;
+        max-width: 50%;
+        font-size: 14px;
+        text-align: left;
+    }
+    .tech__row__right {
+        float: right;
+        max-width: 50%;
+        font-size: 18px;
+        text-align: right;
+    }
+}

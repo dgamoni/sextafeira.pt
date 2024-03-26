@@ -1,0 +1,46 @@
+﻿
+
+@media (max-width: 1024px) {
+
+// main menu
+    .main__menu {
+        top: 0;
+        .container-fluid {
+            margin-right: 0;
+            max-width: calc(1140px + ((100vw - 1140px)/2));
+        }
+        .navbar-nav {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            width: 270px;
+            height: 100vh;
+            padding: 0;
+            li {
+                float: none;
+                text-align: right;
+                a {
+                    padding: 0 20px;
+                }
+            }
+        }
+        .dropdown-menu {
+            position: relative;
+            float: none;
+            border-radius: 0;
+        }
+    }   
+    .open__menu__btn {
+        display: block;
+    }
+// main menu END
+
+}
+@media (max-width: 767px) {
+    .blog__section__item {
+        canvas {
+            max-height: 200px;
+        }
+    }
+}
+

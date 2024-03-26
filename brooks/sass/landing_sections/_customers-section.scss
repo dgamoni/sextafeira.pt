@@ -1,0 +1,78 @@
+﻿
+/*------------------------------------------------------------------
+    Customers section styles
+-------------------------------------------------------------------*/
+
+.customers__list {
+	@include clearfix;
+	text-align:left;
+    .customers__list__item {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 62px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+        img {
+        	display: block;
+        }
+    }	
+}
+
+
+.customers__container {
+	padding: 50px;
+    .customers__container__wrap {
+        position: relative;
+    }
+
+	.customers__quote {
+		font-size: 14px;
+		line-height: 30px;
+		color: $darkGray;
+		font-weight: 300;
+		p {
+			font-size: 14px;
+			line-height: 30px;
+		}
+
+	}
+
+	.customers__name {
+		margin-top: 30px;
+		font-size: 16px;
+		font-weight: 700;
+		color: $darkGray;
+		text-align: center;
+	}
+
+    .customers__tab__list {
+        display: block;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 40px;
+        &__item {
+            display: inline-block;
+			float: none;
+            margin: 0 3%;
+			cursor: pointer;
+			.customers__tab__list__item-in {
+				width: 100px;
+				margin: auto;
+				border: 5px solid transparent;
+				border-radius: 100px;
+				overflow: hidden;
+				@include transition(border-color 0.8s);
+			}
+            &:hover,
+            &.slick-current {
+				.customers__tab__list__item-in {
+					border-color: $mainColor;
+				}
+            }
+
+        }
+		.slick-track {
+			margin: 0 auto;
+		}
+    }
+}

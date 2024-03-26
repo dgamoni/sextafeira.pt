@@ -1,0 +1,107 @@
+﻿
+/*------------------------------------------------------------------
+    counter Section styles
+-------------------------------------------------------------------*/
+
+.theme__chart__block {
+    position: relative;
+    .chart__wrap {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+	&.chart__type__pie {
+		.chart__holder{
+			@include transform(rotate(-90deg));
+		}
+	}
+
+	&.chart__type__linear {
+		margin-bottom: 20px;
+		.chart__description {
+			padding: 0;
+			text-align: left;
+		}
+		.chart__wrap {
+			max-width: 100%;
+		}
+
+		.chart__holder,
+		.label__wrap {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			letter-spacing: 0;
+			line-height: 0;
+			font-size: 0;
+		}
+
+		.chart__holder {
+			width: calc(100% - 95px);
+		}
+		.label__wrap {
+			position: relative;
+			top: -2px;
+			width: 90px;
+			padding-left: 10px;
+			text-align: right;
+			.label__data {
+				font-size: 20px;
+				line-height: 27px;
+			}
+		}
+	}
+	&.chart__type__text {
+		text-align: center;
+		.chart__holder,
+		.label__wrap {
+			position: relative;
+			.label__data {
+				margin: auto;
+				font-size: 30px;
+				line-height: 41px;
+			}
+		}
+		.chart__description {
+			padding: 20px 0;
+			font-size: 20px;
+			line-height: 26px;
+		}
+	}
+}
+
+
+.chart__holder,
+.label__wrap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.label__wrap {
+   @include display(flex);
+    .label__data {
+        margin: auto;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.chart__description {
+    font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+    text-align: center;
+    padding: 40px 0 20px;
+    margin-top: 0;
+}
+
+.figure__holder__square {
+    padding-bottom: 100%;
+}

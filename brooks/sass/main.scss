@@ -1,0 +1,105 @@
+﻿
+/*------------------------------------------------------------------
+
+Project:        BROOKS WP Template
+Version:        1.0.0
+Last change:    22/05/16
+Author:         Ion Digital
+
+-------------------------------------------------------------------*/
+
+
+
+// mixin library for Sass http://bourbon.io/docs/
+@import "bourbon/bourbon";
+
+
+
+/*------------------------------------------------------------------
+	base styles
+-------------------------------------------------------------------*/
+@import "_variables.scss";
+@import "_general.scss";
+@import "_typography.scss";
+@import "_helper.scss";
+
+
+
+
+/*------------------------------------------------------------------
+	components
+-------------------------------------------------------------------*/
+@import "_buttons.scss";
+@import "_modal.scss";
+@import "_preloader.scss";
+@import "_layouts.scss";
+@import "_icons.scss";
+@import "_slider.scss";
+@import "_waves.scss";
+@import "_form.scss";
+@import "_grid_layout.scss";
+@import "_animation.scss";
+@import "date_picker/_default.scss";
+@import "date_picker/_default.date.scss";
+@import "date_picker/_default.time.scss";
+
+
+/*------------------------------------------------------------------
+	header
+-------------------------------------------------------------------*/
+@import "_mainmenu.scss";
+
+
+/*------------------------------------------------------------------
+	landing sections
+-------------------------------------------------------------------*/
+@import "./landing_sections/_main-section.scss";
+@import "./landing_sections/_about-section.scss";
+@import "./landing_sections/_rent-section.scss";
+@import "./landing_sections/_gallery-section.scss";
+@import "./landing_sections/_services-section.scss";
+@import "./landing_sections/_subscribe-section.scss";
+@import "./landing_sections/_video-section.scss";
+@import "./landing_sections/_customers-section.scss";
+@import "./landing_sections/_pricing-section.scss";
+@import "./landing_sections/_team-section.scss";
+@import "./landing_sections/_counter-section.scss";
+
+
+/*------------------------------------------------------------------
+	Pages sections
+-------------------------------------------------------------------*/
+@import "./pages/_search-page.scss";
+@import "./pages/_build-page.scss";
+@import "./pages/_blog-page.scss";
+@import "./pages/_shop-page.scss";
+@import "./pages/_portfolio-page.scss";
+@import "./pages/_coming-page.scss";
+@import "./pages/_404-page.scss";
+
+
+/*------------------------------------------------------------------
+	footer
+-------------------------------------------------------------------*/
+@import "_footer.scss";
+
+
+/*------------------------------------------------------------------
+	responsive
+-------------------------------------------------------------------*/
+@import "_responsive.scss";
+
+
+// wp styles
+@import "_wp-styles.scss";
+
+
+
+
+
+
+
+
+
+
+

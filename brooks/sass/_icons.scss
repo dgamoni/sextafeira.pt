@@ -1,0 +1,525 @@
+﻿/*------------------------------------------------------------------
+    icons styles
+-------------------------------------------------------------------*/
+
+$icon-font-path: "fonts" !default;
+
+$bi-double-carret-left: "\e97a";
+$bi-double-carret-right: "\e97b";
+$bi-arrow-down: "\e900";
+$bi-arrow-left: "\e901";
+$bi-arrow-right: "\e902";
+$bi-arrow-up: "\e903";
+$bi-baidu-fill: "\e904";
+$bi-baidu: "\e905";
+$bi-behance-fill: "\e906";
+$bi-behance: "\e907";
+$bi-bell: "\e908";
+$bi-brooks-logo: "\e909";
+$bi-build: "\e90a";
+$bi-card: "\e90b";
+$bi-carret-down: "\e90c";
+$bi-carret-left: "\e90d";
+$bi-carret-right: "\e90e";
+$bi-carret-up: "\e90f";
+$bi-cart: "\e910";
+$bi-close-circle: "\e911";
+$bi-close: "\e912";
+$bi-comment-fill: "\e913";
+$bi-comment: "\e914";
+$bi-compass: "\e915";
+$bi-copy: "\e916";
+$bi-cristal: "\e917";
+$bi-cup: "\e918";
+$bi-discuss-fill: "\e919";
+$bi-discuss: "\e91a";
+$bi-down-fill: "\e91b";
+$bi-download: "\e91c";
+$bi-dribbble-fill: "\e91d";
+$bi-dribbble: "\e91e";
+$bi-evernote-fill: "\e91f";
+$bi-evernote: "\e920";
+$bi-eye-close: "\e921";
+$bi-facebook-fill: "\e922";
+$bi-facebook: "\e923";
+$bi-flickr-fill: "\e924";
+$bi-flickr: "\e925";
+$bi-globe: "\e926";
+$bi-googleplus-fill: "\e927";
+$bi-googleplus: "\e928";
+$bi-home: "\e929";
+$bi-heart-broken-fill: "\e92a";
+$bi-heart-broken: "\e92b";
+$bi-heart-fill: "\e92c";
+$bi-heart: "\e92d";
+$bi-linkedin-fill: "\e92e";
+$bi-linkedin: "\e92f";
+$bi-instagram-fill: "\e930";
+$bi-instagram: "\e931";
+$bi-keyboard: "\e932";
+$bi-link-fill: "\e933";
+$bi-link: "\e934";
+$bi-lock: "\e935";
+$bi-logout: "\e936";
+$bi-mail: "\e937";
+$bi-mic: "\e938";
+$bi-minus-circle: "\e939";
+$bi-minus: "\e93a";
+$bi-mous: "\e93b";
+$bi-paper: "\e93c";
+$bi-pause: "\e93d";
+$bi-pen: "\e93e";
+$bi-phone: "\e93f";
+$bi-picture: "\e940";
+$bi-pin-fill: "\e941";
+$bi-pin: "\e942";
+$bi-pinterest-fill: "\e943";
+$bi-pinterest: "\e944";
+$bi-play-fill: "\e945";
+$bi-play: "\e946";
+$bi-playstation-fill: "\e947";
+$bi-playstation: "\e948";
+$bi-plus-circle: "\e949";
+$bi-plus: "\e94a";
+$bi-quot-close-2: "\e94b";
+$bi-quot-open-2: "\e94c";
+$bi-quote-close: "\e94d";
+$bi-quote-open: "\e94e";
+$bi-qzone-fill: "\e94f";
+$bi-qzone: "\e950";
+$bi-rec: "\e951";
+$bi-reddit-fill: "\e952";
+$bi-reddit: "\e953";
+$bi-reload: "\e954";
+$bi-right-fill: "\e955";
+$bi-save: "\e956";
+$bi-search: "\e957";
+$bi-settings: "\e958";
+$bi-share-fill: "\e959";
+$bi-share: "\e95a";
+$bi-sort-list-border: "\e95b";
+$bi-sort-list: "\e95c";
+$bi-sort-square-border: "\e95d";
+$bi-sort-square: "\e95e";
+$bi-soundcloud-fill: "\e95f";
+$bi-soundcloud: "\e960";
+$bi-star-fill: "\e961";
+$bi-star: "\e962";
+$bi-stop: "\e963";
+$bi-trash: "\e964";
+$bi-tumblr-fill: "\e965";
+$bi-tumblr: "\e966";
+$bi-twitter-fill: "\e967";
+$bi-twitter: "\e968";
+$bi-unlock: "\e969";
+$bi-up-fill: "\e96a";
+$bi-upload: "\e96b";
+$bi-user: "\e96c";
+$bi-view-fill: "\e96d";
+$bi-view: "\e96e";
+$bi-vimeo-fill: "\e96f";
+$bi-vimeo: "\e970";
+$bi-volume-low: "\e971";
+$bi-volume-max: "\e972";
+$bi-volume-medium: "\e973";
+$bi-weibo-fill: "\e974";
+$bi-weibo: "\e975";
+$bi-youtube-fill: "\e976";
+$bi-youtube: "\e977";
+$bi-zoom-in: "\e978";
+$bi-zoom-out: "\e979";
+
+
+@font-face {
+	font-family: 'brooks-icons';
+	src:
+		url('../#{$icon-font-path}/brooks-icons.ttf?6oope7') format('truetype'),
+		url('../#{$icon-font-path}/brooks-icons.woff?6oope7') format('woff'),
+		url('../#{$icon-font-path}/brooks-icons.svg?6oope7#brooks-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.bicon {
+	display: inline-block;
+	font: normal normal normal 14px/1 'brooks-icons';
+	font-size: inherit;
+	text-rendering: auto;
+	vertical-align: middle;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.bi-double-carret-left {
+	&:before {  content: $bi-double-carret-left;  }
+}
+.bi-double-carret-right {
+	&:before {  content: $bi-double-carret-right;  }
+}
+.bi-arrow-down {
+	&:before {  content: $bi-arrow-down;}
+}
+.bi-arrow-left {
+	&:before {  content: $bi-arrow-left;}
+}
+.bi-arrow-right {
+	&:before {  content: $bi-arrow-right;}
+}
+.bi-arrow-up {
+	&:before {  content: $bi-arrow-up;}
+}
+.bi-baidu-fill {
+	&:before {  content: $bi-baidu-fill;}
+}
+.bi-baidu {
+	&:before {  content: $bi-baidu;}
+}
+.bi-behance-fill {
+	&:before {  content: $bi-behance-fill;}
+}
+.bi-behance {
+	&:before {  content: $bi-behance;}
+}
+.bi-bell {
+	&:before {  content: $bi-bell;}
+}
+.bi-brooks-logo {
+	&:before {  content: $bi-brooks-logo;}
+}
+.bi-build {
+	&:before {  content: $bi-build;}
+}
+.bi-card {
+	&:before {  content: $bi-card;}
+}
+.bi-carret-down {
+	&:before {  content: $bi-carret-down;}
+}
+.bi-carret-left {
+	&:before {  content: $bi-carret-left;}
+}
+.bi-carret-right {
+	&:before {  content: $bi-carret-right;}
+}
+.bi-carret-up {
+	&:before {  content: $bi-carret-up;}
+}
+.bi-cart {
+	&:before {  content: $bi-cart;}
+}
+.bi-close-circle {
+	&:before {  content: $bi-close-circle;}
+}
+.bi-close {
+	&:before {  content: $bi-close;}
+}
+.bi-comment-fill {
+	&:before {  content: $bi-comment-fill;}
+}
+.bi-comment {
+	&:before {  content: $bi-comment;}
+}
+.bi-compass {
+	&:before {  content: $bi-compass;}
+}
+.bi-copy {
+	&:before {  content: $bi-copy;}
+}
+.bi-cristal {
+	&:before {  content: $bi-cristal;}
+}
+.bi-cup {
+	&:before {  content: $bi-cup;}
+}
+.bi-discuss-fill {
+	&:before {  content: $bi-discuss-fill;}
+}
+.bi-discuss {
+	&:before {  content: $bi-discuss;}
+}
+.bi-down-fill {
+	&:before {  content: $bi-down-fill;}
+}
+.bi-download {
+	&:before {  content: $bi-download;}
+}
+.bi-dribbble-fill {
+	&:before {  content: $bi-dribbble-fill;}
+}
+.bi-dribbble {
+	&:before {  content: $bi-dribbble;}
+}
+.bi-evernote-fill {
+	&:before {  content: $bi-evernote-fill;}
+}
+.bi-evernote {
+	&:before {  content: $bi-evernote;}
+}
+.bi-eye-close {
+	&:before {  content: $bi-eye-close;}
+}
+.bi-facebook-fill {
+	&:before {  content: $bi-facebook-fill;}
+}
+.bi-facebook {
+	&:before {  content: $bi-facebook;}
+}
+.bi-flickr-fill {
+	&:before {  content: $bi-flickr-fill;}
+}
+.bi-flickr {
+	&:before {  content: $bi-flickr;}
+}
+.bi-globe {
+	&:before {  content: $bi-globe;}
+}
+.bi-googleplus-fill {
+	&:before {  content: $bi-googleplus-fill;}
+}
+.bi-googleplus {
+	&:before {  content: $bi-googleplus;}
+}
+.bi-home {
+	&:before {  content: $bi-home;}
+}
+.bi-heart-broken-fill {
+	&:before {  content: $bi-heart-broken-fill;}
+}
+.bi-heart-broken {
+	&:before {  content: $bi-heart-broken;}
+}
+.bi-heart-fill {
+	&:before {  content: $bi-heart-fill;}
+}
+.bi-heart {
+	&:before {  content: $bi-heart;}
+}
+.bi-linkedin-fill {
+	&:before {  content: $bi-linkedin-fill;}
+}
+.bi-linkedin {
+	&:before {  content: $bi-linkedin;}
+}
+.bi-instagram-fill {
+	&:before {  content: $bi-instagram-fill;}
+}
+.bi-instagram {
+	&:before {  content: $bi-instagram;}
+}
+.bi-keyboard {
+	&:before {  content: $bi-keyboard;}
+}
+.bi-link-fill {
+	&:before {  content: $bi-link-fill;}
+}
+.bi-link {
+	&:before {  content: $bi-link;}
+}
+.bi-lock {
+	&:before {  content: $bi-lock;}
+}
+.bi-logout {
+	&:before {  content: $bi-logout;}
+}
+.bi-mail {
+	&:before {  content: $bi-mail;}
+}
+.bi-mic {
+	&:before {  content: $bi-mic;}
+}
+.bi-minus-circle {
+	&:before {  content: $bi-minus-circle;}
+}
+.bi-minus {
+	&:before {  content: $bi-minus;}
+}
+.bi-mous {
+	&:before {  content: $bi-mous;}
+}
+.bi-paper {
+	&:before {  content: $bi-paper;}
+}
+.bi-pause {
+	&:before {  content: $bi-pause;}
+}
+.bi-pen {
+	&:before {  content: $bi-pen;}
+}
+.bi-phone {
+	&:before {  content: $bi-phone;}
+}
+.bi-picture {
+	&:before {  content: $bi-picture;}
+}
+.bi-pin-fill {
+	&:before {  content: $bi-pin-fill;}
+}
+.bi-pin {
+	&:before {  content: $bi-pin;}
+}
+.bi-pinterest-fill {
+	&:before {  content: $bi-pinterest-fill;}
+}
+.bi-pinterest {
+	&:before {  content: $bi-pinterest;}
+}
+.bi-play-fill {
+	&:before {  content: $bi-play-fill;}
+}
+.bi-play {
+	&:before {  content: $bi-play;}
+}
+.bi-playstation-fill {
+	&:before {  content: $bi-playstation-fill;}
+}
+.bi-playstation {
+	&:before {  content: $bi-playstation;}
+}
+.bi-plus-circle {
+	&:before {  content: $bi-plus-circle;}
+}
+.bi-plus {
+	&:before {  content: $bi-plus;}
+}
+.bi-quot-close-2 {
+	&:before {  content: $bi-quot-close-2;}
+}
+.bi-quot-open-2 {
+	&:before {  content: $bi-quot-open-2;}
+}
+.bi-quote-close {
+	&:before {  content: $bi-quote-close;}
+}
+.bi-quote-open {
+	&:before {  content: $bi-quote-open;}
+}
+.bi-qzone-fill {
+	&:before {  content: $bi-qzone-fill;}
+}
+.bi-qzone {
+	&:before {  content: $bi-qzone;}
+}
+.bi-rec {
+	&:before {  content: $bi-rec;}
+}
+.bi-reddit-fill {
+	&:before {  content: $bi-reddit-fill;}
+}
+.bi-reddit {
+	&:before {  content: $bi-reddit;}
+}
+.bi-reload {
+	&:before {  content: $bi-reload;}
+}
+.bi-right-fill {
+	&:before {  content: $bi-right-fill;}
+}
+.bi-save {
+	&:before {  content: $bi-save;}
+}
+.bi-search {
+	&:before {  content: $bi-search;}
+}
+.bi-settings {
+	&:before {  content: $bi-settings;}
+}
+.bi-share-fill {
+	&:before {  content: $bi-share-fill;}
+}
+.bi-share {
+	&:before {  content: $bi-share;}
+}
+.bi-sort-list-border {
+	&:before {  content: $bi-sort-list-border;}
+}
+.bi-sort-list {
+	&:before {  content: $bi-sort-list;}
+}
+.bi-sort-square-border {
+	&:before {  content: $bi-sort-square-border;}
+}
+.bi-sort-square {
+	&:before {  content: $bi-sort-square;}
+}
+.bi-soundcloud-fill {
+	&:before {  content: $bi-soundcloud-fill;}
+}
+.bi-soundcloud {
+	&:before {  content: $bi-soundcloud;}
+}
+.bi-star-fill {
+	&:before {  content: $bi-star-fill;}
+}
+.bi-star {
+	&:before {  content: $bi-star;}
+}
+.bi-stop {
+	&:before {  content: $bi-stop;}
+}
+.bi-trash {
+	&:before {  content: $bi-trash;}
+}
+.bi-tumblr-fill {
+	&:before {  content: $bi-tumblr-fill;}
+}
+.bi-tumblr {
+	&:before {  content: $bi-tumblr;}
+}
+.bi-twitter-fill {
+	&:before {  content: $bi-twitter-fill;}
+}
+.bi-twitter {
+	&:before {  content: $bi-twitter;}
+}
+.bi-unlock {
+	&:before {  content: $bi-unlock;}
+}
+.bi-up-fill {
+	&:before {  content: $bi-up-fill;}
+}
+.bi-upload {
+	&:before {  content: $bi-upload;}
+}
+.bi-user {
+	&:before {  content: $bi-user;}
+}
+.bi-view-fill {
+	&:before {  content: $bi-view-fill;}
+}
+.bi-view {
+	&:before {  content: $bi-view;}
+}
+.bi-vimeo-fill {
+	&:before {  content: $bi-vimeo-fill;}
+}
+.bi-vimeo {
+	&:before {  content: $bi-vimeo;}
+}
+.bi-volume-low {
+	&:before {  content: $bi-volume-low;}
+}
+.bi-volume-max {
+	&:before {  content: $bi-volume-max;}
+}
+.bi-volume-medium {
+	&:before {  content: $bi-volume-medium;}
+}
+.bi-weibo-fill {
+	&:before {  content: $bi-weibo-fill;}
+}
+.bi-weibo {
+	&:before {  content: $bi-weibo;}
+}
+.bi-youtube-fill {
+	&:before {  content: $bi-youtube-fill;}
+}
+.bi-youtube {
+	&:before {  content: $bi-youtube;}
+}
+.bi-zoom-in {
+	&:before {  content: $bi-zoom-in;}
+}
+.bi-zoom-out {
+	&:before {  content: $bi-zoom-out;}
+}
+

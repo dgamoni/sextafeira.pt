@@ -1,0 +1,14 @@
+﻿/*------------------------------------------------------------------
+    Main styles
+-------------------------------------------------------------------*/
+html {
+    min-height: 100%; 
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    color: $darkGray;
+    @include backface-visibility(hidden);
+}

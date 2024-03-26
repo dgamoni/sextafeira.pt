@@ -1,0 +1,94 @@
+﻿/*------------------------------------------------------------------
+# [Color codes]
+------------------------------------------------------------------*/
+
+// White Color
+$whiteColor: #fff;
+// Black Color
+$blackColor: #000;
+
+$mainColor: #EE3F54;
+
+//gray   545454
+//yellow E7C31F
+//red    EE3F54
+//blue   056FDC
+//gold   CDB389
+
+//  Main Color
+//$darkMainColor: $mainColor;
+
+//  Medium Main Color #0284f4
+//$mainColor: lighten($mainColor,20%);
+
+//  Light Main Color #5eb4fe
+//$mainColor: lighten($mainColor,40%);
+
+// Dark Grey
+$darkGray: #2F2E2F;
+// Medium Grey
+$mediumGray: lighten($darkGray,20%);
+//$mediumGray: #4A4A4A;
+// light Gray 
+$lightGray: lighten($darkGray,40%);
+//$lightGray: #979797;
+// light Gray 
+$superlightGray: lighten($darkGray,75%);
+//$superlightGray: #eee;
+
+
+/*------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------
+  preloader colors
+------------------------------------------------------------------*/
+$spinner-default-color: $mainColor;
+
+$progress-bar-color: $mainColor;
+
+$datepicker-focus: $mainColor;
+$datepicker-selected-outfocus: $mainColor;
+$datepicker-date-bg: $mainColor;
+$datepicker-weekday-bg: $mainColor;
+$datepicker-selected: $mainColor;
+$datepicker-year: $whiteColor;
+/*------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------
+  form variables
+------------------------------------------------------------------*/
+$label-font-size: 15px;
+$gutter-width: 22px;
+$dropdown-item-height: 30px;
+
+// form/inputs colors
+$secondary-color: $mainColor;
+$button-color: $mainColor;
+$input-border-color: $lightGray;
+$input-disabled-color: $superlightGray;
+$input-focus-color: $mainColor;
+$input-success-color: green;
+$input-error-color: red;
+$input-bg-color: $whiteColor;
+
+// radio colors
+$radio-fill-color: $mainColor;
+$radio-empty-color: $mainColor;
+
+$input-disabled-solid-color: $superlightGray;
+
+// switch colors
+$switch-checked-lever-bg: $mainColor;
+$switch-bg-color: $whiteColor;
+$switch-unchecked-lever-bg: $lightGray;
+$switch-unchecked-bg: $whiteColor;
+
+$dropdown-hover-bg-color: $superlightGray;
+
+/*------------------------------------------------------------------*/

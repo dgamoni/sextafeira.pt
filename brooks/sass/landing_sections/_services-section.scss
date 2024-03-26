@@ -1,0 +1,23 @@
+﻿
+/*------------------------------------------------------------------
+    Services section styles
+-------------------------------------------------------------------*/
+    
+.services__block__col {
+    margin-top: 50px;
+    .services__block__col__img {
+        img {
+            display: block;
+            width: 120px;
+            margin: auto;
+        }
+    }
+    p  {
+        max-width: 300px;
+        margin: 30px auto 0;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: none;
+        color: $blackColor;
+    }
+}

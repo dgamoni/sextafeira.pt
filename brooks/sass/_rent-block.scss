@@ -1,0 +1,22 @@
+﻿
+/*------------------------------------------------------------------
+    Rent Section styles
+-------------------------------------------------------------------*/
+
+.rent__list {
+	@include clearfix;
+	.rent__list__item {
+		float: left;
+		width: 25%;
+		input {
+			box-sizing: border-box;
+			height: 70px;
+			border-bottom: 0;
+			border-right: 1px solid $mediumBlue;
+		}
+		.btn {
+			width: 100%;
+		}
+	}
+}
+

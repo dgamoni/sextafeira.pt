@@ -1,0 +1,286 @@
+.brooks-layout-select:after {
+    content: '';
+    clear: both;
+}
+.brooks-layout-select .brooks-layout-item {
+    float: left;
+    max-width: 100px;
+    padding-right: 15px;
+    opacity: 0.5;
+    cursor: pointer;
+    position: relative;
+}
+.brooks-layout-select .brooks-layout-item.active{
+    opacity: 1;
+}
+.brooks-layout-select .brooks-layout-item.active:before {
+    content: '✓';
+    font-size: 10px;
+    line-height: 15px;
+    height: 15px;
+    width: 15px;
+    color: #FFF;
+    background-color: #20c043;
+    border-radius: 100%;
+    position: absolute;
+    text-align: center;
+    right: 8px;
+    top: -8px;
+}
+.brooks-layout-select .brooks-layout-item img {
+    width: 100%;
+}
+.brooks-layout-select .brooks-layout-item input {
+    width: auto;
+    margin-right: 5px;
+}
+
+
+.vc_ui-panel .brooks-offset-box-field .vc_css-editor .vc_layout-onion {
+    width: 144px;
+}
+
+.vc_ui-panel .brooks-offset-box-field .vc_css-editor .vc_layout-onion .vc_margin {
+    border: none;
+}
+
+.vc_ui-panel .brooks-offset-box-field .vc_css-editor .vc_layout-onion .vc_margin .vc_border {
+    margin: 0;
+    border: none;
+}
+
+.vc_ui-panel .brooks-offset-box-field .vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding {
+    margin: 0;
+}
+
+.vc_ui-panel .brooks-offset-box-field .vc_css-editor .vc_layout-onion .vc_margin .vc_border .vc_padding .z-index-position {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.brooks-rwmb-demo-import {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.brooks-rwmb-demo-import.rwmb-row {
+    margin: 0 -15px;
+}
+.brooks-rwmb-demo-import.rwmb-row .rwmb-column {
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brooks-rwmb-demo-import .rwmb-column-8 {
+    width: 66.666%;
+}
+.brooks-rwmb-demo-import .rwmb-column-4 {
+    width: 33.333%;
+}
+
+
+
+.brooks-rwmb-demo-import .demo-import-item {
+    position: relative;
+    padding-bottom: 70%;
+    width: 100%;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .demo-import-image {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    top: 15px;
+    left: 15px;
+}
+
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    position: absolute;
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    top: 15px;
+    left: 15px;
+
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s background-color;
+}
+
+.brooks-rwmb-demo-import .demo-import-item:hover .ion-progress-importer:not(.disabled) {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer h3 {
+    color: #FFF;
+    font-weight: 300;
+    margin-top: 25px!important;
+    text-align: center;
+    margin-bottom: 15px!important;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .info-message {
+    display: none;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer h3,
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer p,
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .start-import {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s opacity, 0s visibility 0.5s;
+}
+
+.brooks-rwmb-demo-import .demo-import-item:hover .ion-progress-importer:not(.disabled) h3,
+.brooks-rwmb-demo-import .demo-import-item:hover .ion-progress-importer:not(.disabled) p,
+.brooks-rwmb-demo-import .demo-import-item:hover .ion-progress-importer:not(.disabled) .start-import {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s opacity;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer label {
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: 300;
+    height: auto;
+    padding-left: 50px;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .progress-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    height: 30px;
+    max-width: none;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 30px;
+    z-index: 2;
+    margin: auto;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .start-import {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .start-import button {
+    background: #EE3F54;
+    border-radius: 0;
+    color: #FFF;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .start-import button[disabled] {
+    opacity: 0.4;
+    background: #e6e6e6!important;
+    color: #141414!important;
+}
+
+.brooks-rwmb-demo-import .demo-import-item .ion-progress-importer .progress-bar-message {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Remove default checkbox */
+.brooks-rwmb-demo-import [type="checkbox"]:not(:checked),
+.brooks-rwmb-demo-import [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden; }
+
+.brooks-rwmb-demo-import [type="checkbox"] {
+    /* checkbox aspect */ }
+.brooks-rwmb-demo-import [type="checkbox"] + label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    /* webkit (safari, chrome) browsers */
+    -moz-user-select: none;
+    /* mozilla browsers */
+    -khtml-user-select: none;
+    /* webkit (konqueror) browsers */
+    -ms-user-select: none;
+    /* IE10+ */ }
+.brooks-rwmb-demo-import [type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    z-index: 0;
+    border: 2px solid #FFF;
+    border-radius: 1px;
+    margin-top: 2px;
+    transition: .2s; }
+
+.brooks-rwmb-demo-import [type="checkbox"]:checked + label:before {
+    top: -4px;
+    left: -3px;
+    width: 6px;
+    height: 11px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+    backface-visibility: hidden;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%; }

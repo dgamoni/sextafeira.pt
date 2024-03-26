@@ -1,0 +1,68 @@
+.ion-progress-importer .progress-bar {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(151, 151, 151, 0.4);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ion-progress-importer .progress-value {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.ion-progress-importer .progress-bar-message {
+    margin-top: 10px;
+    max-height: 72px;
+    overflow: auto;
+}
+
+@keyframes progress {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes progress {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.ion-progress-importer .progress-bar .progress:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 2;
+}
+.ion-progress-importer .progress-bar.active .progress:before {
+    animation: progress 2s infinite linear;
+    -webkit-animation: progress 2s infinite linear;
+}
+
+.ion-progress-importer .progress-bar .progress {
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    background-color: #EE3F54;
+    transition: 0.5s width;
+    -webkit-transition: 0.5s width;
+}

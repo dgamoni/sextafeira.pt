@@ -1,0 +1,232 @@
+﻿/*------------------------------------------------------------------
+    helper classes
+-------------------------------------------------------------------*/
+
+.image-fill {
+  background-size: cover;
+  background-position: center;
+}
+
+// text
+.text-light {
+    font-weight: 300 !important;
+}
+.text-bold {
+    font-weight: bold !important;
+}
+.text-white {
+    color: $whiteColor !important;
+}
+
+.section-text-white {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span {
+        color: $whiteColor;
+    }
+}
+
+
+.theme-box-shadow {
+    box-shadow:0 2px 20px 0 rgba(0,0,0,0.15);
+}
+.theme-box-shadow-hover {
+    box-shadow:0 0 0 0 rgba(0,0,0,0.15);
+    @include transition(box-shadow 0.5s);
+    &:hover {
+        box-shadow:0 2px 20px 0 rgba(0,0,0,0.15);
+    }
+}
+
+    // margin
+.nomargin {
+    margin: 0 !important;
+}
+.nomargin-right {
+    margin-right: 0 !important;
+}
+.nomargin-left {
+    margin-left: 0 !important;
+}
+.nomargin-bottom {
+    margin-bottom: 0 !important;
+}
+.nomargin-top {
+    margin-top: 0 !important;
+}
+// margin-top
+@for $i from 0 through 20 {
+    .margin-top-#{$i * 5} {
+        margin-top: $i*5+px !important;
+    }
+}
+// margin-bottom
+@for $i from 0 through 20 {
+    .margin-bottom-#{$i * 5} {
+        margin-bottom: $i*5+px !important;
+    }
+}
+// margin-left
+@for $i from 0 through 20 {
+    .margin-left-#{$i * 5} {
+        margin-left: $i*5+px !important;
+    }
+}
+// margin-right
+@for $i from 0 through 20 {
+    .margin-right-#{$i * 5} {
+        margin-right: $i*5+px !important;
+    }
+}
+
+
+// padding
+.nopadding{
+    padding:0 !important;
+}
+
+.nopadding-right{
+    padding-right: 0 !important;
+}
+
+.nopadding-left {
+    padding-left: 0 !important;
+}
+
+.nopadding-top {
+    padding-top: 0 !important;
+}
+
+.nopadding-bottom {
+    padding-bottom: 0 !important;
+}
+
+// padding-top
+@for $i from 0 through 20 {
+    .padding-top-#{$i * 5} {
+        padding-top: $i*5+px !important;
+    }
+}
+// padding-bottom
+@for $i from 0 through 20 {
+    .padding-bottom-#{$i * 5} {
+        padding-bottom: $i*5+px !important;
+    }
+}
+// padding-left
+@for $i from 0 through 20 {
+    .padding-left-#{$i * 5} {
+        padding-left: $i*5+px !important;
+    }
+}
+// padding-right
+@for $i from 0 through 20 {
+    .padding-right-#{$i * 5} {
+        padding-right: $i*5+px !important;
+    }
+}
+
+
+@for $i from 0 through 10 {
+    .padding-left-xs-#{$i * 5} {
+        padding-left: $i*5+px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    @for $i from 0 through 10 {
+        .padding-left-sm-#{$i * 5} {
+            padding-left: $i*5+px !important;
+        }
+    }
+}
+@media (min-width: 992px) {
+    @for $i from 0 through 10 {
+        .padding-left-md-#{$i * 5} {
+            padding-left: $i*5+px !important;
+        }
+    }
+}
+@media (min-width: 1199px) {
+    @for $i from 0 through 10 {
+        .padding-left-lg-#{$i * 5} {
+            padding-left: $i*5+px !important;
+        }
+    }
+}
+
+@for $i from 0 through 10 {
+    .padding-right-xs-#{$i * 5} {
+        padding-right: $i*5+px !important;
+    }
+}
+@media (min-width: 768px) {
+    @for $i from 0 through 10 {
+        .padding-right-sm-#{$i * 5} {
+            padding-right: $i*5+px !important;
+        }
+    }
+}
+@media (min-width: 992px) {
+    @for $i from 0 through 10 {
+        .padding-right-md-#{$i * 5} {
+            padding-right: $i*5+px !important;
+        }
+    }
+}
+@media (min-width: 1199px) {
+    @for $i from 0 through 10 {
+        .padding-right-lg-#{$i * 5} {
+            padding-right: $i*5+px !important;
+        }
+    }
+}
+
+
+
+
+.pull-left-xs {
+    float: left !important;
+}
+
+@media (min-width: 768px) {
+    .pull-left-sm {
+        float: left !important;
+    }
+}
+@media (min-width: 992px) {
+    .pull-left-md {
+        float: left !important;
+    }
+}
+@media (min-width: 1199px) {
+    .pull-left-lg {
+        float: left !important;
+    }
+}
+
+
+.pull-right-xs {
+    float: right !important;
+}
+@media (min-width: 768px) {
+    .pull-right-sm {
+        float: right !important;
+    }
+}
+@media (min-width: 992px) {
+    .pull-right-md {
+        float: right !important;
+    }
+}
+@media (min-width: 1999px) {
+    .pull-right-lg {
+        float: right !important;
+    }
+}
+

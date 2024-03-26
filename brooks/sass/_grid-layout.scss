@@ -1,0 +1,50 @@
+$grid-item-ratio: 0.8; // 1 - square, < 1 - horizontal rectangle, > 1 - vertical rectangle
+
+@mixin grid-item($columns, $col-size) {
+  width: 100% * $col-size / $columns;
+  padding-bottom: 100% * $grid-item-ratio / $columns;
+}
+
+
+.theme__grid {
+
+  @for $i from 2 through 12 {
+    &.grid__columns__#{$i} {
+
+      .grid__item {
+        @include grid-item($i, 1);
+
+        @for $j from 2 through $i {
+          &.item__width__#{$j} {
+            @include grid-item($i, $j);
+          }
+
+          &.item__height__#{$j} {
+            padding-bottom: 100% * $grid-item-ratio * $j / $i;
+          }
+        }
+      }
+    }
+  }
+}
+
+.grid__item {
+//  width: 25%;
+  box-shadow: 0px 0px 0px 10px #FFF inset;
+//  padding-bottom: 20%;
+  background-size: cover;
+  background-position: center;
+}
+//.grid__item.item__width__2 {
+//  width: 50%;
+//}
+//.grid__item.item__width__3 {
+//  width: 75%;
+//}
+//
+//.grid__item.item__height__2 {
+//  padding-bottom: 40%;
+//}
+//.grid__item.item__height__3 {
+//  padding-bottom: 40%;
+//}

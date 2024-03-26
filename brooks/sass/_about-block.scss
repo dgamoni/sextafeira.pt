@@ -1,0 +1,20 @@
+﻿
+/*------------------------------------------------------------------
+    about Section styles
+-------------------------------------------------------------------*/
+
+.about__block__col {
+    img {
+        display: block;
+        width: 88%;
+        height: auto;
+    }
+    p {
+        width: 88%;
+        margin-top: 40px;
+        color: #000;
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 300;
+    }
+}

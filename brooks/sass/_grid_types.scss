@@ -1,0 +1,89 @@
+﻿
+
+/*------------------------------------------------------------------
+    Grid Types
+-------------------------------------------------------------------*/
+.grid__types__item {
+    position: relative;
+    overflow: hidden;
+    canvas {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+	.grid__types__item {
+		overflow: hidden;
+	}
+    .grid__types__item__wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+		z-index: 2;
+        width: 100%;
+        height: 100%;
+        padding: 7.5px;
+		overflow: hidden;
+        .grid__types__item__wrap__inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                opacity: 0.8;
+				@include filter(grayscale(1));
+                @include linear-gradient(rgba(#000, 0), rgba(#000, 1));
+				@include transition( 0.5s);
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                @include linear-gradient(rgba($lightMainColor, 0.5), rgba($mediumMainColor, 1));
+                @include transition(opacity 0.5s);
+            }
+            * {
+                z-index: 3;
+            }
+        }
+    }
+    &:hover {
+        .grid__types__item__wrap__inner {
+            &:after {
+				opacity: 0.8;
+            }
+        }
+    }
+}
+
+.grid__types__slider {
+	position: absolute;
+	top: 7.5px;
+	left: 7.5px;
+	width: calc(100% - 15px);
+	height: calc(100% - 15px);
+	overflow: hidden;
+	canvas {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-position: center;
+		background-size: cover;
+	}
+}

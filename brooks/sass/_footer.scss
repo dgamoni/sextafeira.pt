@@ -1,0 +1,151 @@
+﻿
+/*------------------------------------------------------------------
+    footer styles
+-------------------------------------------------------------------*/
+
+footer.main__footer {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    color: $darkGray;
+    font-weight: 300;
+    text-align: left;
+    background-color: $whiteColor;
+	@include flex-grow(0);
+	@include flex-shrink(0);
+	@include flex-basis(auto);
+    .footer__row {
+        position: relative;
+		@include display(flex);
+		@include flex-direction(row);
+		@include flex-wrap(wrap);
+	}
+
+
+    .footer__col {
+		color: $darkGray;
+        .theme__widget {
+            &:first-child {
+				padding-top: 30px;
+                h4 {
+                    position: relative;
+                    padding-bottom: 40px;
+                    font-size: 30px;
+                    color: inherit;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    &:after {
+                        content:'';
+                        position: absolute;
+						bottom: 17px;
+                        left: 0;
+                        height: 3px;
+                        width: 40px;
+                        background-color: $mainColor;
+                    }
+                }
+            }
+			ul:not(.product_list_widget) {
+				li {
+					color: inherit;
+					a {
+						color: inherit;
+					}
+					&:hover {
+						a {
+							border-color: inherit;
+							opacity: 0.6;
+						}
+					}
+				}
+			}
+			.wp-caption {
+				.wp-caption-text {
+					color: $darkGray;
+				}
+			}
+
+			.social__widget a {
+				color: inherit;
+			}
+        }
+		h4,
+		h5,
+		caption {
+			color: inherit;
+		}
+        h4 {
+            margin-top: 0px;
+			margin-bottom: 10px;
+            font-size: 20px;
+            letter-spacing: 1px;
+			font-weight: 300;
+		}
+
+        address {
+			> div {
+				position: relative;
+				padding:9px 0px 9px 30px;
+				font-size: 14px;
+				line-height: 24px;
+				&:first-child {
+					padding-top: 0;
+					i {
+						margin-top: 0;
+					}
+				}
+				i {
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					width: 25px;
+					height: 25px;
+					margin:auto;
+					color: inherit;
+					font-size: 27px;
+					line-height: 25px;
+					text-align: center;
+				}
+			}
+        }
+    }
+	.input-field label {
+		color: inherit;
+	}
+	.select-wrapper,
+	input:not([type]),
+	input[type=text],
+	input[type=password],
+	input[type=email],
+	input[type=url],
+	input[type=time],
+	input[type=date],
+	input[type=datetime-local],
+	input[type=tel],
+	input[type=number],
+	input[type=search],
+	textarea.materialize-textarea {
+		background-color: transparent;
+		color: inherit;
+	}
+	.select-wrapper {
+		input.select-dropdown {
+			padding-left: 0;
+		}
+		.dropdown-content {
+			color: $darkGray;
+		}
+	}
+
+    // copyright
+    .footer__copyright {
+        background-color: $darkGray;
+        .theme__widget {
+            margin: 15px 0;
+            color: $whiteColor;
+            font-size: 14px;
+        }
+    }
+}
